@@ -145,10 +145,6 @@ export const songs: LibrarySong[] = playlist.songs.map((entry) => {
   };
 });
 
-export const licenseEntries = [...audit.songs].sort((a, b) =>
-  `${a.artist} ${a.title}`.localeCompare(`${b.artist} ${b.title}`),
-);
-
 export const stats = (() => {
   let total = 0;
   let ogg = 0;

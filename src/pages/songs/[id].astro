@@ -106,13 +106,12 @@ const documents = files.slice(song.stems.length);
         {song.notes}
       </div>
       <p class="section__lede" style="margin-top: 1rem;">
-        This library is non-commercial. Keep the source <code>license.txt</code>
+        This library is non-commercial. Keep the source <code>license.txt</code>{" "}
         with any copy, credit the artist and chart author, and do not sell or
         paywall the song. ShareAlike sources require the same licence on adapted
         stems and charts.
       </p>
       <div class="actions">
-        <a class="button" href="/licenses">All licences</a>
         {song.licenseFile ? (
           <a class="button button--ghost" href={song.licenseFile}>license.txt</a>
         ) : null}

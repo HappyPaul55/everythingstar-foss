@@ -8,7 +8,7 @@ const poster = songs.slice(0, 3);
 
 <BaseLayout
   title="EverythingStar FOSS — a free, non-commercial song library"
-  description="37 UltraStar songs converted for EverythingStar and Guitar Hero-compatible players, with separated vocals, guitar, bass, drums, keys and other stems, vocal charts and a full licence audit."
+  description="37 UltraStar songs converted for EverythingStar and Guitar Hero-compatible players, with separated vocals, guitar, bass, drums, keys and other stems, vocal charts and licence details on every song page."
 >
   <section class="hero-band on-ink">
     <div class="container hero">
@@ -24,7 +24,6 @@ const poster = songs.slice(0, 3);
         <div class="actions">
           <a class="button button--yellow" href="/songs">Browse {stats.songs} songs</a>
           <a class="button button--ghost" href="/songs/playlist.json">Playlist JSON</a>
-          <a class="button button--ghost" href="/licenses">Licences</a>
         </div>
       </div>
       <div class="poster" aria-label="A taped stack of covers from the library">
@@ -71,7 +70,7 @@ const poster = songs.slice(0, 3);
         <div class="panel sticker">
           <h3>Ready to play</h3>
           <p>
-            Each folder carries a <code>notes.mid</code> vocal chart, a
+            Each folder carries a <code>notes.mid</code> vocal chart, a{" "}
             <code>song.ini</code>, a preview and six OGG stems. Clone Hero, YARG
             and EverythingStar can all read the same folder.
           </p>
@@ -88,7 +87,7 @@ const poster = songs.slice(0, 3);
         <div class="panel sticker">
           <h3>Licences on the record</h3>
           <p>
-            Every song keeps its original <code>license.txt</code>. The audit
+            Every song keeps its original <code>license.txt</code>. The song page
             records the audio, chart and artwork licences and the changes made.
           </p>
         </div>
@@ -135,7 +134,7 @@ const poster = songs.slice(0, 3);
         <div class="panel">
           <h3>EverythingStar</h3>
           <p>
-            The playlist points at per-song <code>song.json</code> and
+            The playlist points at per-song <code>song.json</code> and{" "}
             <code>vocals.json</code> documents. A singing player automatically
             drops the guide vocal out of the mix.
           </p>
@@ -167,10 +166,9 @@ const poster = songs.slice(0, 3);
       <div class="notice">
         <strong>This library is non-commercial.</strong> Nothing here may be sold,
         put behind a paywall, or used to promote a commercial service. The
-        songs remain under their own Creative Commons licences; see
-        <a href="/licenses">Licences</a> and the per-song
-        <code>license.txt</code>. Only works whose licences permit derivative
-        use are included.
+        songs remain under their own Creative Commons licences; see each song
+        page and its per-song <code>license.txt</code>. Only works whose licences
+        permit derivative use are included.
       </div>
     </section>
   </div>

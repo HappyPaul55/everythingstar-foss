@@ -9,7 +9,7 @@ interface Props {
 
 const {
   title,
-  description = "A free, non-commercial library of UltraStar songs converted for EverythingStar and Guitar Hero-compatible players, with separated stems and a licence audit.",
+  description = "A free, non-commercial library of UltraStar songs converted for EverythingStar and Guitar Hero-compatible players, with separated stems and licence details on every song page.",
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url);
@@ -17,15 +17,15 @@ const ogImage = new URL("/icons/android-chrome-512x512.png", Astro.site ?? Astro
 const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/+$/, "") || "/";
 const year = new Date().getFullYear();
 const domain = "everythingstar-foss.happypaul55.com";
+const gameUrl = "https://everythingstar.happypaul55.com";
 
 const nav = [
   { href: "/songs", label: "Songs" },
-  { href: "/licenses", label: "Licences" },
+  { href: "/songs/playlist.json", label: "Playlist JSON" },
 ];
-const pill = { href: "/songs/playlist.json", label: "Playlist JSON" };
+const pill = { href: gameUrl, label: "Play with EverythingStar" };
 
-const isActive = (href: string) =>
-  href !== pill.href && (path === href || path.startsWith(`${href}/`));
+const isActive = (href: string) => path === href || path.startsWith(`${href}/`);
 ---
 
 <!doctype html>
@@ -80,7 +80,14 @@ const isActive = (href: string) =>
               </a>
             ))
           }
-          <a class="nav-pill" href={pill.href}>{pill.label}</a>
+          <a
+            class="nav-pill"
+            href={pill.href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {pill.label} <span aria-hidden="true">↗</span>
+          </a>
         </nav>
 
         <details class="nav-disclosure">
@@ -101,7 +108,14 @@ const isActive = (href: string) =>
                 </a>
               ))
             }
-            <a class="nav-pill" href={pill.href}>{pill.label}</a>
+            <a
+              class="nav-pill"
+              href={pill.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {pill.label} <span aria-hidden="true">↗</span>
+            </a>
           </nav>
         </details>
       </div>
@@ -122,7 +136,7 @@ const isActive = (href: string) =>
             </a>
             <p class="site-footer__tagline">
               A free, non-commercial song library for rhythm-based games like{" "}
-              <a href="https://everythingstar.happypaul55.com">EverythingStar</a>.
+              <a href={gameUrl} target="_blank" rel="noopener noreferrer">EverythingStar</a>.
             </p>
           </div>
 
@@ -130,7 +144,6 @@ const isActive = (href: string) =>
             <h2 class="site-footer__heading">Pages</h2>
             <ul class="site-footer__links">
               <li><a href="/songs">Songs</a></li>
-              <li><a href="/licenses">Licences</a></li>
               <li><a href="/songs/playlist.json">Playlist JSON</a></li>
             </ul>
           </nav>
@@ -138,8 +151,12 @@ const isActive = (href: string) =>
           <div>
             <h2 class="site-footer__heading">Elsewhere</h2>
             <ul class="site-footer__links">
+              <li>
+                <a href={gameUrl} target="_blank" rel="noopener noreferrer"
+                  >Play with EverythingStar <span aria-hidden="true">↗</span></a
+                >
+              </li>
               <li><a href="/ATTRIBUTION.md">Attribution</a></li>
-              <li><a href="/songs/licenses.json">Licence audit</a></li>
               <li>
                 <a href="https://www.happypaul55.com" target="_blank" rel="noopener noreferrer"
                   >HappyPaul55 ↗</a
@@ -154,8 +171,7 @@ const isActive = (href: string) =>
             © {year}{" "}
             <a href="https://www.happypaul55.com" target="_blank" rel="noopener noreferrer"
               >HappyPaul55</a
-            >
-            · {domain}
+            >{" "}· {domain}
           </span>
           <span class="site-footer__note">// non-commercial · no accounts, no cookies, no trackers</span>
         </div>

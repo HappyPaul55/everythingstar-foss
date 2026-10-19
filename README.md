@@ -29,9 +29,11 @@ Pages:
 - `/` — what the library is, numbers, featured songs, how to use it;
 - `/songs` — the full list with search and 30-second previews;
 - `/songs/<id>` — one song’s stems, chart/document files and licence;
-- `/licenses` — the licence audit and the two exclusions;
 - `/songs/playlist.json` — the EverythingStar playlist;
 - `/ATTRIBUTION.md`, `/songs/licenses.json` — the raw attribution files.
+
+Licence details live on each song page; there is no separate licences page.
+The game itself is at <https://everythingstar.happypaul55.com>.
 
 The site reads `public/songs/playlist.json` and
 `public/songs/licenses.json` at build time, so it cannot drift from the
