@@ -1,0 +1,2021 @@
+{
+  "schemaVersion": 1,
+  "chartType": "vocals",
+  "parts": 1,
+  "rows": 11,
+  "rootMidi": 58,
+  "lines": [
+    {
+      "timeMs": 29290,
+      "endMs": 31809,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "I",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "am",
+          "timeMs": 448,
+          "hero": false
+        },
+        {
+          "text": "sixty",
+          "timeMs": 896,
+          "hero": false
+        },
+        {
+          "text": "nine",
+          "timeMs": 1343,
+          "hero": false
+        },
+        {
+          "text": "percent",
+          "timeMs": 1791,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 32872,
+      "endMs": 35335,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "I",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "want",
+          "timeMs": 224,
+          "hero": false
+        },
+        {
+          "text": "you",
+          "timeMs": 672,
+          "hero": false
+        },
+        {
+          "text": "to",
+          "timeMs": 896,
+          "hero": false
+        },
+        {
+          "text": "see,",
+          "timeMs": 1119,
+          "hero": false
+        },
+        {
+          "text": "yea!",
+          "timeMs": 1567,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 36230,
+      "endMs": 39141,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Don't",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "you",
+          "timeMs": 224,
+          "hero": false
+        },
+        {
+          "text": "know",
+          "timeMs": 448,
+          "hero": false
+        },
+        {
+          "text": "it's",
+          "timeMs": 896,
+          "hero": false
+        },
+        {
+          "text": "the",
+          "timeMs": 1120,
+          "hero": false
+        },
+        {
+          "text": "bomb's",
+          "timeMs": 1344,
+          "hero": false
+        },
+        {
+          "text": "turn",
+          "timeMs": 1791,
+          "hero": false
+        },
+        {
+          "text": "now",
+          "timeMs": 2239,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 39812,
+      "endMs": 42723,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "to",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "be",
+          "timeMs": 224,
+          "hero": false
+        },
+        {
+          "text": "dropping",
+          "timeMs": 672,
+          "hero": false
+        },
+        {
+          "text": "on",
+          "timeMs": 1120,
+          "hero": false
+        },
+        {
+          "text": "me",
+          "timeMs": 1344,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 43618,
+      "endMs": 46417,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Awaken",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "your",
+          "timeMs": 1120,
+          "hero": false
+        },
+        {
+          "text": "forlorn",
+          "timeMs": 1344,
+          "hero": false
+        },
+        {
+          "text": "eye",
+          "timeMs": 2239,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 47200,
+      "endMs": 49439,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Wake",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "up",
+          "timeMs": 224,
+          "hero": false
+        },
+        {
+          "text": "to",
+          "timeMs": 672,
+          "hero": false
+        },
+        {
+          "text": "the",
+          "timeMs": 896,
+          "hero": false
+        },
+        {
+          "text": "view",
+          "timeMs": 1120,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 50559,
+      "endMs": 53301,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "There's",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "a",
+          "timeMs": 224,
+          "hero": false
+        },
+        {
+          "text": "bomb",
+          "timeMs": 447,
+          "hero": false
+        },
+        {
+          "text": "closing",
+          "timeMs": 895,
+          "hero": false
+        },
+        {
+          "text": "in",
+          "timeMs": 1343,
+          "hero": false
+        },
+        {
+          "text": "right",
+          "timeMs": 1791,
+          "hero": false
+        },
+        {
+          "text": "now",
+          "timeMs": 2238,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 54141,
+      "endMs": 57163,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "And",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "I",
+          "timeMs": 224,
+          "hero": false
+        },
+        {
+          "text": "know",
+          "timeMs": 448,
+          "hero": false
+        },
+        {
+          "text": "what",
+          "timeMs": 895,
+          "hero": false
+        },
+        {
+          "text": "to",
+          "timeMs": 1119,
+          "hero": false
+        },
+        {
+          "text": "do",
+          "timeMs": 1343,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 57947,
+      "endMs": 59290,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 447,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 61529,
+      "endMs": 62872,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 448,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 65111,
+      "endMs": 66566,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 448,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 68245,
+      "endMs": 71268,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 672,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 79439,
+      "endMs": 81958,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "I",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "will",
+          "timeMs": 224,
+          "hero": false
+        },
+        {
+          "text": "be",
+          "timeMs": 448,
+          "hero": false
+        },
+        {
+          "text": "your",
+          "timeMs": 896,
+          "hero": false
+        },
+        {
+          "text": "guiding",
+          "timeMs": 1120,
+          "hero": false
+        },
+        {
+          "text": "light",
+          "timeMs": 2015,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 83021,
+      "endMs": 85484,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "I",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "want",
+          "timeMs": 224,
+          "hero": false
+        },
+        {
+          "text": "you",
+          "timeMs": 672,
+          "hero": false
+        },
+        {
+          "text": "to",
+          "timeMs": 896,
+          "hero": false
+        },
+        {
+          "text": "see,",
+          "timeMs": 1120,
+          "hero": false
+        },
+        {
+          "text": "yea!",
+          "timeMs": 1568,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 86380,
+      "endMs": 88842,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "And",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "my",
+          "timeMs": 223,
+          "hero": false
+        },
+        {
+          "text": "fire",
+          "timeMs": 447,
+          "hero": false
+        },
+        {
+          "text": "will",
+          "timeMs": 1119,
+          "hero": false
+        },
+        {
+          "text": "burn",
+          "timeMs": 1343,
+          "hero": false
+        },
+        {
+          "text": "tonite",
+          "timeMs": 2014,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 89962,
+      "endMs": 93096,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "The",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "bombs",
+          "timeMs": 224,
+          "hero": false
+        },
+        {
+          "text": "dropping",
+          "timeMs": 671,
+          "hero": false
+        },
+        {
+          "text": "on",
+          "timeMs": 1119,
+          "hero": false
+        },
+        {
+          "text": "me",
+          "timeMs": 1343,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 93768,
+      "endMs": 95111,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 447,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 97350,
+      "endMs": 98693,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 447,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 100932,
+      "endMs": 102387,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 448,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 104066,
+      "endMs": 107089,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 672,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 151081,
+      "endMs": 152424,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 448,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 154663,
+      "endMs": 156007,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 448,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 158245,
+      "endMs": 159701,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 448,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 161380,
+      "endMs": 164402,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 671,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 165409,
+      "endMs": 166193,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 448,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 167200,
+      "endMs": 168096,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 448,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 168991,
+      "endMs": 169775,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 448,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 170783,
+      "endMs": 171678,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 447,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 172574,
+      "endMs": 173357,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 447,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 174365,
+      "endMs": 175372,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 447,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 175708,
+      "endMs": 179179,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Hail",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "You!",
+          "timeMs": 672,
+          "hero": true
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "timeMs": 29290,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 7,
+      "text": "I"
+    },
+    {
+      "timeMs": 29738,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 7,
+      "text": "am"
+    },
+    {
+      "timeMs": 30186,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "six"
+    },
+    {
+      "timeMs": 30409,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "ty"
+    },
+    {
+      "timeMs": 30633,
+      "lengthMs": 280,
+      "part": 0,
+      "row": 5,
+      "text": "nine"
+    },
+    {
+      "timeMs": 31081,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 3,
+      "text": "per"
+    },
+    {
+      "timeMs": 31529,
+      "lengthMs": 280,
+      "part": 0,
+      "row": 0,
+      "text": "cent"
+    },
+    {
+      "timeMs": 32872,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 7,
+      "text": "I"
+    },
+    {
+      "timeMs": 33096,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 7,
+      "text": "want"
+    },
+    {
+      "timeMs": 33544,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "you"
+    },
+    {
+      "timeMs": 33768,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "to"
+    },
+    {
+      "timeMs": 33991,
+      "lengthMs": 280,
+      "part": 0,
+      "row": 5,
+      "text": "see,"
+    },
+    {
+      "timeMs": 34439,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 7,
+      "text": "yea"
+    },
+    {
+      "timeMs": 34663,
+      "lengthMs": 672,
+      "part": 0,
+      "row": 3,
+      "text": "!"
+    },
+    {
+      "timeMs": 36230,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "Don't"
+    },
+    {
+      "timeMs": 36454,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "you"
+    },
+    {
+      "timeMs": 36678,
+      "lengthMs": 280,
+      "part": 0,
+      "row": 7,
+      "text": "know"
+    },
+    {
+      "timeMs": 37126,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "it's"
+    },
+    {
+      "timeMs": 37350,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "the"
+    },
+    {
+      "timeMs": 37574,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 5,
+      "text": "bomb's"
+    },
+    {
+      "timeMs": 38021,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 3,
+      "text": "turn"
+    },
+    {
+      "timeMs": 38469,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "no"
+    },
+    {
+      "timeMs": 38693,
+      "lengthMs": 448,
+      "part": 0,
+      "row": 0,
+      "text": "w"
+    },
+    {
+      "timeMs": 39812,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "to"
+    },
+    {
+      "timeMs": 40036,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 7,
+      "text": "be"
+    },
+    {
+      "timeMs": 40484,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "drop"
+    },
+    {
+      "timeMs": 40708,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "ping"
+    },
+    {
+      "timeMs": 40932,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "on"
+    },
+    {
+      "timeMs": 41156,
+      "lengthMs": 672,
+      "part": 0,
+      "row": 7,
+      "text": "me"
+    },
+    {
+      "timeMs": 42051,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 8,
+      "text": ""
+    },
+    {
+      "timeMs": 42275,
+      "lengthMs": 448,
+      "part": 0,
+      "row": 5,
+      "text": ""
+    },
+    {
+      "timeMs": 43618,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "A"
+    },
+    {
+      "timeMs": 43842,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 7,
+      "text": "wa"
+    },
+    {
+      "timeMs": 44290,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 7,
+      "text": "ken"
+    },
+    {
+      "timeMs": 44738,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "your"
+    },
+    {
+      "timeMs": 44962,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 5,
+      "text": "for"
+    },
+    {
+      "timeMs": 45409,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 3,
+      "text": "lorn"
+    },
+    {
+      "timeMs": 45857,
+      "lengthMs": 560,
+      "part": 0,
+      "row": 0,
+      "text": "eye"
+    },
+    {
+      "timeMs": 47200,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 7,
+      "text": "Wake"
+    },
+    {
+      "timeMs": 47424,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 7,
+      "text": "up"
+    },
+    {
+      "timeMs": 47872,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "to"
+    },
+    {
+      "timeMs": 48096,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "the"
+    },
+    {
+      "timeMs": 48320,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 5,
+      "text": "vie"
+    },
+    {
+      "timeMs": 48768,
+      "lengthMs": 56,
+      "part": 0,
+      "row": 7,
+      "text": "",
+      "hero": true
+    },
+    {
+      "timeMs": 48880,
+      "lengthMs": 56,
+      "part": 0,
+      "row": 5,
+      "text": "",
+      "hero": true
+    },
+    {
+      "timeMs": 48991,
+      "lengthMs": 448,
+      "part": 0,
+      "row": 3,
+      "text": "w",
+      "hero": true
+    },
+    {
+      "timeMs": 50559,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "There's"
+    },
+    {
+      "timeMs": 50783,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "a"
+    },
+    {
+      "timeMs": 51006,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 7,
+      "text": "bomb"
+    },
+    {
+      "timeMs": 51454,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "clo"
+    },
+    {
+      "timeMs": 51678,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "sing"
+    },
+    {
+      "timeMs": 51902,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 5,
+      "text": "in"
+    },
+    {
+      "timeMs": 52350,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 3,
+      "text": "right"
+    },
+    {
+      "timeMs": 52797,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "no"
+    },
+    {
+      "timeMs": 53021,
+      "lengthMs": 280,
+      "part": 0,
+      "row": 0,
+      "text": "w"
+    },
+    {
+      "timeMs": 54141,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "And"
+    },
+    {
+      "timeMs": 54365,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 7,
+      "text": "I"
+    },
+    {
+      "timeMs": 54589,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 5,
+      "text": "know"
+    },
+    {
+      "timeMs": 55036,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "what"
+    },
+    {
+      "timeMs": 55260,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "to"
+    },
+    {
+      "timeMs": 55484,
+      "lengthMs": 672,
+      "part": 0,
+      "row": 7,
+      "text": "do"
+    },
+    {
+      "timeMs": 56380,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 8,
+      "text": ""
+    },
+    {
+      "timeMs": 56603,
+      "lengthMs": 560,
+      "part": 0,
+      "row": 5,
+      "text": ""
+    },
+    {
+      "timeMs": 57947,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 58394,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 58842,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": ""
+    },
+    {
+      "timeMs": 59066,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 3,
+      "text": "!"
+    },
+    {
+      "timeMs": 61529,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 61977,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 62200,
+      "lengthMs": 672,
+      "part": 0,
+      "row": 10,
+      "text": "!",
+      "hero": true
+    },
+    {
+      "timeMs": 65111,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 65559,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 66006,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": ""
+    },
+    {
+      "timeMs": 66230,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 3,
+      "text": "!"
+    },
+    {
+      "timeMs": 68245,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 68917,
+      "lengthMs": 2351,
+      "part": 0,
+      "row": 8,
+      "text": "You!",
+      "hero": true
+    },
+    {
+      "timeMs": 79439,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "I"
+    },
+    {
+      "timeMs": 79663,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "will"
+    },
+    {
+      "timeMs": 79887,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 7,
+      "text": "be"
+    },
+    {
+      "timeMs": 80111,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": ""
+    },
+    {
+      "timeMs": 80335,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "your"
+    },
+    {
+      "timeMs": 80559,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 5,
+      "text": "gui"
+    },
+    {
+      "timeMs": 81006,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 3,
+      "text": "ding"
+    },
+    {
+      "timeMs": 81454,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "li"
+    },
+    {
+      "timeMs": 81678,
+      "lengthMs": 280,
+      "part": 0,
+      "row": 0,
+      "text": "ght"
+    },
+    {
+      "timeMs": 83021,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 7,
+      "text": "I"
+    },
+    {
+      "timeMs": 83245,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 7,
+      "text": "want"
+    },
+    {
+      "timeMs": 83693,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "you"
+    },
+    {
+      "timeMs": 83917,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "to"
+    },
+    {
+      "timeMs": 84141,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 5,
+      "text": "see,"
+    },
+    {
+      "timeMs": 84589,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 7,
+      "text": "yea"
+    },
+    {
+      "timeMs": 84812,
+      "lengthMs": 672,
+      "part": 0,
+      "row": 3,
+      "text": "!"
+    },
+    {
+      "timeMs": 86380,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "And"
+    },
+    {
+      "timeMs": 86603,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "my"
+    },
+    {
+      "timeMs": 86827,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 7,
+      "text": "fi"
+    },
+    {
+      "timeMs": 87275,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "re"
+    },
+    {
+      "timeMs": 87499,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "will"
+    },
+    {
+      "timeMs": 87723,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 5,
+      "text": "burn"
+    },
+    {
+      "timeMs": 88394,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "to"
+    },
+    {
+      "timeMs": 88618,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 0,
+      "text": "nite"
+    },
+    {
+      "timeMs": 89962,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "The"
+    },
+    {
+      "timeMs": 90186,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 7,
+      "text": "bombs"
+    },
+    {
+      "timeMs": 90633,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "drop"
+    },
+    {
+      "timeMs": 90857,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 3,
+      "text": "ping"
+    },
+    {
+      "timeMs": 91081,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 0,
+      "text": "on"
+    },
+    {
+      "timeMs": 91305,
+      "lengthMs": 672,
+      "part": 0,
+      "row": 7,
+      "text": "me"
+    },
+    {
+      "timeMs": 92200,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 8,
+      "text": "",
+      "hero": true
+    },
+    {
+      "timeMs": 92424,
+      "lengthMs": 672,
+      "part": 0,
+      "row": 5,
+      "text": "",
+      "hero": true
+    },
+    {
+      "timeMs": 93768,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 94215,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 94663,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": ""
+    },
+    {
+      "timeMs": 94887,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 3,
+      "text": "!"
+    },
+    {
+      "timeMs": 97350,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 97797,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 98021,
+      "lengthMs": 672,
+      "part": 0,
+      "row": 10,
+      "text": "!"
+    },
+    {
+      "timeMs": 100932,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 101380,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 101827,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "",
+      "hero": true
+    },
+    {
+      "timeMs": 102051,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 3,
+      "text": "!",
+      "hero": true
+    },
+    {
+      "timeMs": 104066,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 104738,
+      "lengthMs": 2351,
+      "part": 0,
+      "row": 8,
+      "text": "You!"
+    },
+    {
+      "timeMs": 151081,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 151529,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 151977,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": ""
+    },
+    {
+      "timeMs": 152200,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 3,
+      "text": "!"
+    },
+    {
+      "timeMs": 154663,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 155111,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 155335,
+      "lengthMs": 672,
+      "part": 0,
+      "row": 10,
+      "text": "!"
+    },
+    {
+      "timeMs": 158245,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 158693,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "You",
+      "hero": true
+    },
+    {
+      "timeMs": 159141,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 5,
+      "text": "",
+      "hero": true
+    },
+    {
+      "timeMs": 159365,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 3,
+      "text": "!",
+      "hero": true
+    },
+    {
+      "timeMs": 161380,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 162051,
+      "lengthMs": 2351,
+      "part": 0,
+      "row": 8,
+      "text": "You!",
+      "hero": true
+    },
+    {
+      "timeMs": 165409,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 165857,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "You!"
+    },
+    {
+      "timeMs": 167200,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 167648,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 167872,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 10,
+      "text": "!"
+    },
+    {
+      "timeMs": 168991,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 169439,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "You!"
+    },
+    {
+      "timeMs": 170783,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 171230,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 171454,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 10,
+      "text": "!",
+      "hero": true
+    },
+    {
+      "timeMs": 172574,
+      "lengthMs": 224,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 173021,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "You!"
+    },
+    {
+      "timeMs": 174365,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 174812,
+      "lengthMs": 112,
+      "part": 0,
+      "row": 8,
+      "text": "You"
+    },
+    {
+      "timeMs": 175036,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 10,
+      "text": "!"
+    },
+    {
+      "timeMs": 175708,
+      "lengthMs": 336,
+      "part": 0,
+      "row": 8,
+      "text": "Hail"
+    },
+    {
+      "timeMs": 176380,
+      "lengthMs": 2799,
+      "part": 0,
+      "row": 8,
+      "text": "You!",
+      "hero": true
+    }
+  ]
+}

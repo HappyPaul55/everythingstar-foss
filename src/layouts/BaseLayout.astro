@@ -1,0 +1,89 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "A free, non-commercial library of UltraStar songs converted for EverythingStar and Guitar Hero-compatible players, with separated stems and a licence audit.",
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url);
+const ogImage = new URL("/icons/android-chrome-512x512.png", Astro.site ?? Astro.url);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#f4f4ec" />
+    <link rel="icon" href="/icons/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icons/brand-mark.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link
+      rel="preload"
+      href="/fonts/space-grotesk-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/permanent-marker-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="/">
+          <span class="brand__mark" aria-hidden="true">E</span>
+          <span>EverythingStar <span class="brand__foss">FOSS</span></span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="/songs">Songs</a>
+          <a href="/licenses">Licences</a>
+          <a href="/songs/playlist.json">Playlist JSON</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>
+          A non-commercial fan library. The songs, lyrics, artwork and charts remain
+          under their own licences; nothing here may be sold or put behind a paywall.
+          No affiliation with the artists or game publishers.
+        </p>
+        <nav class="site-footer__nav" aria-label="Footer">
+          <a href="/songs">Songs</a>
+          <a href="/licenses">Licences</a>
+          <a href="/ATTRIBUTION.md">Attribution</a>
+          <a href="/NOT-INCLUDED.md">Not included</a>
+          <a href="/songs/playlist.json">Playlist</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

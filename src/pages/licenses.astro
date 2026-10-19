@@ -1,0 +1,121 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { encodePath, excluded, licenseEntries, songs } from "../lib/library";
+
+const idByFolder = new Map(songs.map((song) => [song.folder, song.id]));
+const routeFor = (folder: string) => `/songs/${idByFolder.get(folder) ?? ""}`;
+---
+
+<BaseLayout
+  title="Licences — EverythingStar FOSS"
+  description="The full licence audit for the EverythingStar FOSS song library: audio, chart and artwork terms, share-alike notes, and the songs that are not included."
+>
+  <div class="container">
+    <header class="page-head">
+      <p class="eyebrow">On the record</p>
+      <h1>Licences</h1>
+      <p>
+        Every song keeps its source <code>license.txt</code>. This page is the
+        summary; the per-song file is the authority. The library is
+        <strong>non-commercial</strong>: no sales, paywalls or commercial
+        promotion.
+      </p>
+    </header>
+
+    <div class="notice">
+      <strong>Two songs are not included.</strong> They are licensed
+      NoDerivatives, and separating stems or converting the chart would be an
+      adaptation. See <a href="#not-included">Not included</a>. For the other 13
+      non-Coulton songs, the supplied licence covers the audio and artwork but
+      does not state a separate chart licence; they are credited and marked
+      <code>not stated</code> below.
+    </div>
+
+    <section class="section">
+      <p class="eyebrow">Included songs</p>
+      <h2>Terms by song</h2>
+      <div style="overflow-x: auto;">
+        <table class="license-table">
+          <thead>
+            <tr>
+              <th>Song</th>
+              <th>Artist</th>
+              <th>Audio</th>
+              <th>Chart</th>
+              <th>Derivatives</th>
+              <th>Commercial</th>
+              <th>Licence</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              licenseEntries.map((entry) => (
+                <tr>
+                  <td>
+                    <a href={routeFor(entry.folder)}>{entry.title}</a>
+                  </td>
+                  <td>{entry.artist}</td>
+                  <td>{entry.audioLicense}</td>
+                  <td>{entry.chartLicense}</td>
+                  <td>{entry.derivatives}</td>
+                  <td>{entry.commercialUse === true ? "source: yes" : entry.commercialUse === false ? "source: no" : "unknown"}</td>
+                  <td>
+                    <a href={`/songs/${encodePath(entry.licenseFile)}`}>license.txt</a>
+                  </td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+      <p class="section__lede" style="margin-top: 1rem;">
+        The detail page link uses the song folder; the licence link opens the
+        original <code>license.txt</code> copied from the UltraStar package.
+      </p>
+    </section>
+
+    <section class="section" id="not-included">
+      <p class="eyebrow">Left out on purpose</p>
+      <h2>Not included</h2>
+      <div style="overflow-x: auto;">
+        <table class="license-table">
+          <thead>
+            <tr>
+              <th>Song</th>
+              <th>Artist</th>
+              <th>Licence</th>
+              <th>Why</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              excluded.map((entry) => (
+                <tr>
+                  <td>{entry.title}</td>
+                  <td>{entry.artist}</td>
+                  <td><a href={entry.url}>{entry.license}</a></td>
+                  <td>{entry.reason}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">The long version</p>
+      <h2>Attribution and changes</h2>
+      <p class="section__lede">
+        The full attribution document records the source, the changes made and
+        the share-alike terms. The machine-readable audit is
+        <code>licenses.json</code>; the site does not hide the source licences.
+      </p>
+      <div class="actions">
+        <a class="button" href="/ATTRIBUTION.md">Attribution</a>
+        <a class="button button--ghost" href="/NOT-INCLUDED.md">Not included</a>
+        <a class="button button--ghost" href="/songs/licenses.json">licenses.json</a>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

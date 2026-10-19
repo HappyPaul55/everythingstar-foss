@@ -1,0 +1,122 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { songs, songFiles, type LibrarySong } from "../../lib/library";
+
+export function getStaticPaths() {
+  return songs.map((song) => ({
+    params: { id: song.id },
+    props: { song },
+  }));
+}
+
+const { song } = Astro.props as { song: LibrarySong };
+const files = songFiles(song);
+const stems = files.slice(0, song.stems.length);
+const documents = files.slice(song.stems.length);
+---
+
+<BaseLayout
+  title={`${song.title} — EverythingStar FOSS`}
+  description={`${song.title} by ${song.artist}: separated vocals, guitar, bass, drums, keys and other stems, a vocal chart and licence details.`}
+>
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/songs">Songs</a> / {song.title}
+    </nav>
+
+    <article class="detail">
+      <div>
+        {song.cover ? <img class="detail__cover" src={song.cover} alt={`Cover for ${song.title}`} /> : null}
+      </div>
+      <div>
+        <p class="eyebrow">{song.artist}</p>
+        <h1>{song.title}</h1>
+        <div class="detail__meta">
+          <span class="pill">{song.duration}</span>
+          <span class="pill pill--yellow">{song.license}</span>
+          <span class="pill">6 stems</span>
+        </div>
+        <p class="detail__lede">
+          A vocal-only chart with separated stems for vocals, guitar, bass,
+          drums, keys and the residual “other” backing. No guitar, bass or drum
+          chart was invented — those instruments are ready for a chart later.
+        </p>
+        <audio controls preload="none" src={song.preview}>
+          Your browser does not support the audio element.
+        </audio>
+        <div class="actions">
+          <a class="button button--small" href="/songs">All songs</a>
+          <a class="button button--ghost button--small" href="/songs/playlist.json">
+            Playlist JSON
+          </a>
+          {song.licenseFile ? (
+            <a class="button button--ghost button--small" href={song.licenseFile}>
+              Source licence
+            </a>
+          ) : null}
+        </div>
+      </div>
+    </article>
+
+    <section class="section">
+      <p class="eyebrow">Audio</p>
+      <h2>Stems</h2>
+      <p class="section__lede">
+        Six OGG files from Demucs <code>htdemucs_6s</code>. They sum back to the
+        source mix. <code>song.ogg</code> is the residual/backing stem, by Guitar
+        Hero convention.
+      </p>
+      <ul class="file-list">
+        {
+          stems.map((file) => (
+            <li>
+              <a href={file.url} download>{file.label}</a>
+              <span>{file.file} · {file.size}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Chart and documents</p>
+      <h2>Files</h2>
+      <p class="section__lede">
+        The same folder works in EverythingStar, Clone Hero and YARG. The chart
+        is the UltraStar vocal line converted 1:1.
+      </p>
+      <ul class="file-list">
+        {
+          documents.map((file) => (
+            <li>
+              <a href={file.url}>{file.label}</a>
+              <span>{file.file} · {file.size}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Licence</p>
+      <h2>Terms</h2>
+      <div class="notice">
+        <strong>Audio:</strong> {song.license}. <br />
+        <strong>Chart:</strong> {song.chartLicense}. <br />
+        {song.notes}
+      </div>
+      <p class="section__lede" style="margin-top: 1rem;">
+        This library is non-commercial. Keep the source <code>license.txt</code>
+        with any copy, credit the artist and chart author, and do not sell or
+        paywall the song. ShareAlike sources require the same licence on adapted
+        stems and charts.
+      </p>
+      <div class="actions">
+        <a class="button" href="/licenses">All licences</a>
+        {song.licenseFile ? (
+          <a class="button button--ghost" href={song.licenseFile}>license.txt</a>
+        ) : null}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "jonathan-coulton-code-monkey",
+  "title": "Code Monkey",
+  "artist": {
+    "id": "jonathan-coulton",
+    "name": "Jonathan Coulton"
+  },
+  "art": "album.png",
+  "durationMs": 189336,
+  "previewStartMs": 56801,
+  "audio": {
+    "stems": [
+      {
+        "id": "stem_master",
+        "name": "Backing (other)",
+        "url": "song.ogg"
+      },
+      {
+        "id": "stem_vocals",
+        "name": "Vocals",
+        "url": "vocals.ogg",
+        "instrument": "vocals"
+      },
+      {
+        "id": "stem_lead_guitar",
+        "name": "Lead Guitar",
+        "url": "guitar.ogg",
+        "instrument": "lead_guitar"
+      },
+      {
+        "id": "stem_bass",
+        "name": "Bass",
+        "url": "bass.ogg",
+        "instrument": "bass"
+      },
+      {
+        "id": "stem_drums",
+        "name": "Drums",
+        "url": "drums.ogg",
+        "instrument": "drums"
+      },
+      {
+        "id": "stem_keys",
+        "name": "Keys",
+        "url": "keys.ogg",
+        "instrument": "keys"
+      }
+    ],
+    "mixPresets": {
+      "full": {
+        "stemIds": [
+          "stem_master",
+          "stem_vocals",
+          "stem_lead_guitar",
+          "stem_bass",
+          "stem_drums",
+          "stem_keys"
+        ]
+      },
+      "stems": {
+        "stemIds": [
+          "stem_vocals",
+          "stem_lead_guitar",
+          "stem_bass",
+          "stem_drums",
+          "stem_keys"
+        ]
+      }
+    },
+    "preview": "preview.ogg"
+  },
+  "parts": [
+    {
+      "id": "part_vocals",
+      "role": "vocals",
+      "controllerTypes": [],
+      "audioControl": {
+        "controlledStemIds": [
+          "stem_vocals"
+        ],
+        "onHit": {
+          "action": "unmute",
+          "fadeMs": 20
+        },
+        "onMiss": {
+          "action": "mute",
+          "fadeMs": 80,
+          "restore": "next_hit"
+        }
+      },
+      "charts": [
+        {
+          "id": "jonathan-coulton-code-monkey-voice",
+          "chartType": "vocals",
+          "url": "vocals.json"
+        }
+      ]
+    }
+  ]
+}

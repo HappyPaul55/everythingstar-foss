@@ -1,0 +1,9 @@
+{
+  "name": "client-everythingstar-foss-happypaul55-com",
+  "compatibility_date": "2026-10-19",
+  "assets": {
+    "directory": "./dist"
+  },
+  "workers_dev": true,
+  "preview_urls": true
+}

@@ -1,0 +1,126 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { songs } from "../lib/library";
+---
+
+<BaseLayout
+  title="Songs — EverythingStar FOSS"
+  description="All songs in the EverythingStar FOSS library, with separated stems, vocal charts, previews and licence details."
+>
+  <div class="container">
+    <header class="page-head">
+      <p class="eyebrow">The library</p>
+      <h1>Songs</h1>
+      <p>
+        {songs.length} converted UltraStar songs. Each one has a vocal chart, a
+        30-second preview and six separated OGG stems. Open a song for its files
+        and licence, or filter the list below.
+      </p>
+    </header>
+
+    <div class="toolbar">
+      <div class="search">
+        <label for="song-search">Find</label>
+        <input
+          id="song-search"
+          type="search"
+          placeholder="Title, artist or licence"
+          autocomplete="off"
+        />
+      </div>
+      <span class="count" id="song-count" aria-live="polite">{songs.length} songs</span>
+      <a class="button button--ghost button--small" href="/songs/playlist.json">Playlist JSON</a>
+    </div>
+
+    <ul class="song-list" id="song-list">
+      {
+        songs.map((song) => (
+          <li class="song" data-search={song.search}>
+            <a href={`/songs/${song.id}`} tabindex="-1" aria-hidden="true">
+              {song.cover ? <img src={song.cover} alt="" loading="lazy" /> : null}
+            </a>
+            <div>
+              <a class="song__title" href={`/songs/${song.id}`}>{song.title}</a>
+              <div class="song__meta">
+                {song.artist} · {song.duration} · {song.license}
+              </div>
+            </div>
+            <div class="song__actions">
+              <button
+                class="preview"
+                type="button"
+                data-preview={song.preview}
+                aria-pressed="false"
+                aria-label={`Preview ${song.title}`}
+              >
+                ▶ preview
+              </button>
+              <a class="pill" href={`/songs/${song.id}`}>details</a>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="empty" id="song-empty" hidden>No songs match that search.</p>
+  </div>
+
+  <script>
+    const input = document.querySelector<HTMLInputElement>("#song-search");
+    const rows = Array.from(document.querySelectorAll<HTMLElement>(".song"));
+    const count = document.querySelector<HTMLElement>("#song-count");
+    const empty = document.querySelector<HTMLElement>("#song-empty");
+
+    if (input && count && empty) {
+      input.addEventListener("input", () => {
+        const query = input.value.trim().toLowerCase();
+        let visible = 0;
+        for (const row of rows) {
+          const match = query === "" || (row.dataset.search ?? "").includes(query);
+          row.hidden = !match;
+          if (match) visible += 1;
+        }
+        count.textContent = `${visible} song${visible === 1 ? "" : "s"}`;
+        empty.hidden = visible !== 0;
+      });
+    }
+
+    const audio = new Audio();
+    audio.preload = "none";
+    let playing: HTMLButtonElement | null = null;
+
+    const reset = () => {
+      if (playing) {
+        playing.textContent = "▶ preview";
+        playing.setAttribute("aria-pressed", "false");
+      }
+      playing = null;
+    };
+
+    for (const button of Array.from(
+      document.querySelectorAll<HTMLButtonElement>("[data-preview]"),
+    )) {
+      button.addEventListener("click", async () => {
+        const source = button.dataset.preview;
+        if (!source) return;
+        if (playing === button && !audio.paused) {
+          audio.pause();
+          reset();
+          return;
+        }
+        reset();
+        audio.src = source;
+        playing = button;
+        button.textContent = "❚❚ stop";
+        button.setAttribute("aria-pressed", "true");
+        try {
+          await audio.play();
+        } catch {
+          reset();
+        }
+      });
+    }
+
+    audio.addEventListener("ended", reset);
+    audio.addEventListener("error", reset);
+  </script>
+</BaseLayout>

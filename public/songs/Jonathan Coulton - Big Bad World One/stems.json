@@ -1,0 +1,49 @@
+{
+  "model": "htdemucs_6s",
+  "sampleRate": 44100,
+  "durationMs": 170475,
+  "previewStartMs": 51143,
+  "commonGain": 0.872866,
+  "album": "album.png",
+  "files": {
+    "vocals": "vocals.ogg",
+    "guitar": "guitar.ogg",
+    "bass": "bass.ogg",
+    "drums": "drums.ogg",
+    "piano": "keys.ogg",
+    "other": "song.ogg"
+  },
+  "stats": {
+    "vocals": {
+      "file": "vocals.ogg",
+      "rmsDb": -18.82,
+      "peak": 0.8752
+    },
+    "guitar": {
+      "file": "guitar.ogg",
+      "rmsDb": -20.4,
+      "peak": 0.7493
+    },
+    "bass": {
+      "file": "bass.ogg",
+      "rmsDb": -17.13,
+      "peak": 0.5859
+    },
+    "drums": {
+      "file": "drums.ogg",
+      "rmsDb": -19.02,
+      "peak": 0.9372
+    },
+    "piano": {
+      "file": "keys.ogg",
+      "rmsDb": -67.85,
+      "peak": 0.0293
+    },
+    "other": {
+      "file": "song.ogg",
+      "rmsDb": -58.33,
+      "peak": 0.0436
+    }
+  },
+  "sumVsSourceCorrelation": 0.99873
+}

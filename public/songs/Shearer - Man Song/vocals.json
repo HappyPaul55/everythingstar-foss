@@ -1,0 +1,3349 @@
+{
+  "schemaVersion": 1,
+  "chartType": "vocals",
+  "parts": 1,
+  "rows": 22,
+  "rootMidi": 57,
+  "lines": [
+    {
+      "timeMs": 11210,
+      "endMs": 13438,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "There's",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "too",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "much",
+          "timeMs": 594,
+          "hero": false
+        },
+        {
+          "text": "good",
+          "timeMs": 891,
+          "hero": false
+        },
+        {
+          "text": "looks",
+          "timeMs": 1188,
+          "hero": false
+        },
+        {
+          "text": "out",
+          "timeMs": 1485,
+          "hero": false
+        },
+        {
+          "text": "there,",
+          "timeMs": 1980,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 15962,
+      "endMs": 17547,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "ten",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "lifetimes",
+          "timeMs": 298,
+          "hero": false
+        },
+        {
+          "text": "ain't",
+          "timeMs": 892,
+          "hero": false
+        },
+        {
+          "text": "enough.",
+          "timeMs": 1189,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 20022,
+      "endMs": 21804,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "An",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "abundance",
+          "timeMs": 198,
+          "hero": false
+        },
+        {
+          "text": "it",
+          "timeMs": 841,
+          "hero": false
+        },
+        {
+          "text": "don't",
+          "timeMs": 990,
+          "hero": false
+        },
+        {
+          "text": "make",
+          "timeMs": 1188,
+          "hero": false
+        },
+        {
+          "text": "no",
+          "timeMs": 1386,
+          "hero": false
+        },
+        {
+          "text": "sense",
+          "timeMs": 1584,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 21953,
+      "endMs": 23091,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "to",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "fear",
+          "timeMs": 247,
+          "hero": false
+        },
+        {
+          "text": "or",
+          "timeMs": 445,
+          "hero": false
+        },
+        {
+          "text": "be",
+          "timeMs": 643,
+          "hero": false
+        },
+        {
+          "text": "tense.",
+          "timeMs": 841,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 23388,
+      "endMs": 24923,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "All",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "I",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "am",
+          "timeMs": 594,
+          "hero": false
+        },
+        {
+          "text": "is",
+          "timeMs": 792,
+          "hero": false
+        },
+        {
+          "text": "free.",
+          "timeMs": 1188,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 26359,
+      "endMs": 28389,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Two",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "three",
+          "timeMs": 594,
+          "hero": false
+        },
+        {
+          "text": "four",
+          "timeMs": 1782,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 30220,
+      "endMs": 32844,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "So",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "I",
+          "timeMs": 148,
+          "hero": false
+        },
+        {
+          "text": "won't",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "kiss",
+          "timeMs": 594,
+          "hero": false
+        },
+        {
+          "text": "your",
+          "timeMs": 891,
+          "hero": false
+        },
+        {
+          "text": "ass",
+          "timeMs": 1386,
+          "hero": false
+        },
+        {
+          "text": "all",
+          "timeMs": 1782,
+          "hero": false
+        },
+        {
+          "text": "right",
+          "timeMs": 2376,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 34972,
+      "endMs": 36607,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "I",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "won't",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "hand",
+          "timeMs": 594,
+          "hero": false
+        },
+        {
+          "text": "in",
+          "timeMs": 891,
+          "hero": false
+        },
+        {
+          "text": "myself",
+          "timeMs": 1089,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 37943,
+      "endMs": 39082,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "to",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "you.",
+          "timeMs": 297,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 39131,
+      "endMs": 40913,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "For",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "affection,",
+          "timeMs": 148,
+          "hero": false
+        },
+        {
+          "text": "love",
+          "timeMs": 891,
+          "hero": false
+        },
+        {
+          "text": "an",
+          "timeMs": 1089,
+          "hero": false
+        },
+        {
+          "text": "erection,",
+          "timeMs": 1237,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 40962,
+      "endMs": 42052,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "a",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "kiss",
+          "timeMs": 248,
+          "hero": false
+        },
+        {
+          "text": "or",
+          "timeMs": 446,
+          "hero": false
+        },
+        {
+          "text": "a",
+          "timeMs": 595,
+          "hero": false
+        },
+        {
+          "text": "fuck,",
+          "timeMs": 842,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 42250,
+      "endMs": 43883,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "you",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "can't",
+          "timeMs": 198,
+          "hero": false
+        },
+        {
+          "text": "take",
+          "timeMs": 495,
+          "hero": false
+        },
+        {
+          "text": "me",
+          "timeMs": 792,
+          "hero": false
+        },
+        {
+          "text": "away",
+          "timeMs": 1039,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 45368,
+      "endMs": 45962,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "from",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "me.",
+          "timeMs": 297,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 47448,
+      "endMs": 49478,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "And",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "when",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "I",
+          "timeMs": 445,
+          "hero": false
+        },
+        {
+          "text": "stay",
+          "timeMs": 891,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 50121,
+      "endMs": 51755,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "this",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "way,",
+          "timeMs": 297,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 52497,
+      "endMs": 55665,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "you'll",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "never",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "go",
+          "timeMs": 1485,
+          "hero": false
+        },
+        {
+          "text": "away.",
+          "timeMs": 2129,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 57200,
+      "endMs": 59032,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "When",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "I",
+          "timeMs": 149,
+          "hero": false
+        },
+        {
+          "text": "bust",
+          "timeMs": 644,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 59626,
+      "endMs": 61408,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "your",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "balls,",
+          "timeMs": 297,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 62002,
+      "endMs": 65517,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "you",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "will",
+          "timeMs": 297,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 66755,
+      "endMs": 67498,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "love.",
+          "timeMs": 0,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 77745,
+      "endMs": 80517,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Welcome",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "to",
+          "timeMs": 594,
+          "hero": false
+        },
+        {
+          "text": "my",
+          "timeMs": 891,
+          "hero": false
+        },
+        {
+          "text": "reality.",
+          "timeMs": 1386,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 82794,
+      "endMs": 84131,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Welcome",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "to",
+          "timeMs": 594,
+          "hero": false
+        },
+        {
+          "text": "the",
+          "timeMs": 792,
+          "hero": false
+        },
+        {
+          "text": "show.",
+          "timeMs": 1089,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 86656,
+      "endMs": 87795,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "In",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "my",
+          "timeMs": 148,
+          "hero": false
+        },
+        {
+          "text": "barn",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "there's",
+          "timeMs": 594,
+          "hero": false
+        },
+        {
+          "text": "a",
+          "timeMs": 742,
+          "hero": false
+        },
+        {
+          "text": "man",
+          "timeMs": 891,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 87844,
+      "endMs": 89478,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "for",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "say",
+          "timeMs": 198,
+          "hero": false
+        },
+        {
+          "text": "like",
+          "timeMs": 445,
+          "hero": false
+        },
+        {
+          "text": "just",
+          "timeMs": 891,
+          "hero": false
+        },
+        {
+          "text": "about",
+          "timeMs": 1188,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 89626,
+      "endMs": 91260,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "every",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "thousand",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "hens",
+          "timeMs": 792,
+          "hero": false
+        },
+        {
+          "text": "and",
+          "timeMs": 1188,
+          "hero": false
+        },
+        {
+          "text": "one",
+          "timeMs": 1386,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 92002,
+      "endMs": 93982,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "of",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "them",
+          "timeMs": 149,
+          "hero": false
+        },
+        {
+          "text": "rare",
+          "timeMs": 347,
+          "hero": true
+        },
+        {
+          "text": "men",
+          "timeMs": 792,
+          "hero": false
+        },
+        {
+          "text": "is",
+          "timeMs": 1188,
+          "hero": false
+        },
+        {
+          "text": "me.",
+          "timeMs": 1485,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 94972,
+      "endMs": 97003,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "And",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "when",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "I",
+          "timeMs": 446,
+          "hero": false
+        },
+        {
+          "text": "stay",
+          "timeMs": 891,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 97646,
+      "endMs": 99280,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "this",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "way,",
+          "timeMs": 297,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 100022,
+      "endMs": 103190,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "you'll",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "never",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "go",
+          "timeMs": 1485,
+          "hero": false
+        },
+        {
+          "text": "away.",
+          "timeMs": 2129,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 104725,
+      "endMs": 106557,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "When",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "I",
+          "timeMs": 148,
+          "hero": false
+        },
+        {
+          "text": "bust",
+          "timeMs": 643,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 107151,
+      "endMs": 108933,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "your",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "balls,",
+          "timeMs": 297,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 109527,
+      "endMs": 113042,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "you",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "will",
+          "timeMs": 297,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 114279,
+      "endMs": 117498,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "love",
+          "timeMs": 0,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 119032,
+      "endMs": 122299,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Love",
+          "timeMs": 0,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 123784,
+      "endMs": 127003,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Love",
+          "timeMs": 0,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 128537,
+      "endMs": 130468,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Love",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "love",
+          "timeMs": 1188,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 130913,
+      "endMs": 133487,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Love",
+          "timeMs": 0,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 161804,
+      "endMs": 165022,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "I",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "stay",
+          "timeMs": 594,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 166557,
+      "endMs": 169874,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "this",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "way",
+          "timeMs": 297,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 171309,
+      "endMs": 174774,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "I",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "stay",
+          "timeMs": 297,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 176061,
+      "endMs": 176904,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "this",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "way",
+          "timeMs": 298,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 177250,
+      "endMs": 177943,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "This",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "way",
+          "timeMs": 297,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 178438,
+      "endMs": 180616,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "this",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "way",
+          "timeMs": 297,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 180764,
+      "endMs": 182547,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "When",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "I",
+          "timeMs": 149,
+          "hero": false
+        },
+        {
+          "text": "stay",
+          "timeMs": 644,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 183190,
+      "endMs": 184824,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "this",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "way,",
+          "timeMs": 297,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 185566,
+      "endMs": 188735,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "you'll",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "never",
+          "timeMs": 297,
+          "hero": false
+        },
+        {
+          "text": "go",
+          "timeMs": 1486,
+          "hero": false
+        },
+        {
+          "text": "away.",
+          "timeMs": 2080,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 190269,
+      "endMs": 192101,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "When",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "I",
+          "timeMs": 149,
+          "hero": false
+        },
+        {
+          "text": "bust",
+          "timeMs": 644,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 192695,
+      "endMs": 194477,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "your",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "balls,",
+          "timeMs": 297,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 195071,
+      "endMs": 199032,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "you",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "will",
+          "timeMs": 297,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 199824,
+      "endMs": 203042,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "love",
+          "timeMs": 0,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 204576,
+      "endMs": 207745,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Love",
+          "timeMs": 0,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 209329,
+      "endMs": 212497,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Love",
+          "timeMs": 0,
+          "hero": true
+        }
+      ]
+    },
+    {
+      "timeMs": 214081,
+      "endMs": 215913,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Love",
+          "timeMs": 0,
+          "hero": false
+        },
+        {
+          "text": "love",
+          "timeMs": 1188,
+          "hero": false
+        }
+      ]
+    },
+    {
+      "timeMs": 216458,
+      "endMs": 219527,
+      "freeform": false,
+      "parts": [
+        {
+          "part": 0,
+          "offset": 0
+        }
+      ],
+      "words": [
+        {
+          "text": "Love",
+          "timeMs": 0,
+          "hero": false
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "timeMs": 11210,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 4,
+      "text": "There's"
+    },
+    {
+      "timeMs": 11507,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "too"
+    },
+    {
+      "timeMs": 11804,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "much"
+    },
+    {
+      "timeMs": 12101,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": "good"
+    },
+    {
+      "timeMs": 12398,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "looks"
+    },
+    {
+      "timeMs": 12695,
+      "lengthMs": 347,
+      "part": 0,
+      "row": 4,
+      "text": "out"
+    },
+    {
+      "timeMs": 13190,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 7,
+      "text": "there,"
+    },
+    {
+      "timeMs": 15962,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 4,
+      "text": "ten"
+    },
+    {
+      "timeMs": 16260,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": "life"
+    },
+    {
+      "timeMs": 16557,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": "times"
+    },
+    {
+      "timeMs": 16854,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": "ain't"
+    },
+    {
+      "timeMs": 17151,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "e"
+    },
+    {
+      "timeMs": 17299,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 9,
+      "text": "nough."
+    },
+    {
+      "timeMs": 20022,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 11,
+      "text": "An"
+    },
+    {
+      "timeMs": 20220,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "a"
+    },
+    {
+      "timeMs": 20418,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 12,
+      "text": "bun"
+    },
+    {
+      "timeMs": 20616,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 12,
+      "text": "dance"
+    },
+    {
+      "timeMs": 20863,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "it"
+    },
+    {
+      "timeMs": 21012,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "don't"
+    },
+    {
+      "timeMs": 21210,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "make"
+    },
+    {
+      "timeMs": 21408,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "no"
+    },
+    {
+      "timeMs": 21606,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 14,
+      "text": "sense",
+      "hero": true
+    },
+    {
+      "timeMs": 21953,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "to"
+    },
+    {
+      "timeMs": 22200,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 11,
+      "text": "fear"
+    },
+    {
+      "timeMs": 22398,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 11,
+      "text": "or"
+    },
+    {
+      "timeMs": 22596,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 11,
+      "text": "be"
+    },
+    {
+      "timeMs": 22794,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 11,
+      "text": "tense."
+    },
+    {
+      "timeMs": 23388,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": "All"
+    },
+    {
+      "timeMs": 23685,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": "I"
+    },
+    {
+      "timeMs": 23982,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 9,
+      "text": "am"
+    },
+    {
+      "timeMs": 24180,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "is"
+    },
+    {
+      "timeMs": 24576,
+      "lengthMs": 347,
+      "part": 0,
+      "row": 9,
+      "text": "free."
+    },
+    {
+      "timeMs": 26359,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 6,
+      "text": "Two"
+    },
+    {
+      "timeMs": 26953,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 7,
+      "text": "three"
+    },
+    {
+      "timeMs": 28141,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 2,
+      "text": "four"
+    },
+    {
+      "timeMs": 30220,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 2,
+      "text": "So"
+    },
+    {
+      "timeMs": 30368,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 2,
+      "text": "I"
+    },
+    {
+      "timeMs": 30517,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "won't"
+    },
+    {
+      "timeMs": 30814,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "kiss"
+    },
+    {
+      "timeMs": 31111,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": "you"
+    },
+    {
+      "timeMs": 31408,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 9,
+      "text": "r"
+    },
+    {
+      "timeMs": 31606,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 4,
+      "text": "ass"
+    },
+    {
+      "timeMs": 32002,
+      "lengthMs": 396,
+      "part": 0,
+      "row": 7,
+      "text": "all"
+    },
+    {
+      "timeMs": 32596,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 11,
+      "text": "right"
+    },
+    {
+      "timeMs": 34972,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 2,
+      "text": "I"
+    },
+    {
+      "timeMs": 35269,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": "won't"
+    },
+    {
+      "timeMs": 35566,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": "hand"
+    },
+    {
+      "timeMs": 35863,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 9,
+      "text": "in"
+    },
+    {
+      "timeMs": 36061,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "my"
+    },
+    {
+      "timeMs": 36359,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 9,
+      "text": "self"
+    },
+    {
+      "timeMs": 37943,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": "to"
+    },
+    {
+      "timeMs": 38240,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": "you"
+    },
+    {
+      "timeMs": 38537,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 7,
+      "text": "",
+      "hero": true
+    },
+    {
+      "timeMs": 38834,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 4,
+      "text": "."
+    },
+    {
+      "timeMs": 39131,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "For"
+    },
+    {
+      "timeMs": 39279,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "af"
+    },
+    {
+      "timeMs": 39428,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 12,
+      "text": "fec"
+    },
+    {
+      "timeMs": 39725,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 12,
+      "text": "tion,"
+    },
+    {
+      "timeMs": 40022,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 12,
+      "text": "love"
+    },
+    {
+      "timeMs": 40220,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "an"
+    },
+    {
+      "timeMs": 40368,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "e"
+    },
+    {
+      "timeMs": 40616,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 14,
+      "text": "rec"
+    },
+    {
+      "timeMs": 40863,
+      "lengthMs": 50,
+      "part": 0,
+      "row": 12,
+      "text": "tion,"
+    },
+    {
+      "timeMs": 40962,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "a"
+    },
+    {
+      "timeMs": 41210,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 11,
+      "text": "kiss"
+    },
+    {
+      "timeMs": 41408,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 11,
+      "text": "or"
+    },
+    {
+      "timeMs": 41557,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 11,
+      "text": "a"
+    },
+    {
+      "timeMs": 41804,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 12,
+      "text": "fuck,"
+    },
+    {
+      "timeMs": 42250,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "you"
+    },
+    {
+      "timeMs": 42448,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": "can't"
+    },
+    {
+      "timeMs": 42745,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": "take"
+    },
+    {
+      "timeMs": 43042,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": "me"
+    },
+    {
+      "timeMs": 43289,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "a"
+    },
+    {
+      "timeMs": 43487,
+      "lengthMs": 396,
+      "part": 0,
+      "row": 9,
+      "text": "way"
+    },
+    {
+      "timeMs": 45368,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 6,
+      "text": "from"
+    },
+    {
+      "timeMs": 45665,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 7,
+      "text": "me."
+    },
+    {
+      "timeMs": 47448,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 4,
+      "text": "And"
+    },
+    {
+      "timeMs": 47745,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "when"
+    },
+    {
+      "timeMs": 47893,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": "I"
+    },
+    {
+      "timeMs": 48339,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 11,
+      "text": "stay",
+      "hero": true
+    },
+    {
+      "timeMs": 48933,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": ""
+    },
+    {
+      "timeMs": 49230,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 7,
+      "text": ""
+    },
+    {
+      "timeMs": 50121,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 14,
+      "text": "this"
+    },
+    {
+      "timeMs": 50418,
+      "lengthMs": 792,
+      "part": 0,
+      "row": 13,
+      "text": "way"
+    },
+    {
+      "timeMs": 51309,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": ""
+    },
+    {
+      "timeMs": 51606,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": ","
+    },
+    {
+      "timeMs": 52497,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": "you'll"
+    },
+    {
+      "timeMs": 52794,
+      "lengthMs": 693,
+      "part": 0,
+      "row": 7,
+      "text": "ne"
+    },
+    {
+      "timeMs": 53685,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "ver"
+    },
+    {
+      "timeMs": 53982,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 7,
+      "text": "go"
+    },
+    {
+      "timeMs": 54626,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 9,
+      "text": "a"
+    },
+    {
+      "timeMs": 55170,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 9,
+      "text": "way."
+    },
+    {
+      "timeMs": 57200,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "When"
+    },
+    {
+      "timeMs": 57349,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 9,
+      "text": "I"
+    },
+    {
+      "timeMs": 57844,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 11,
+      "text": "bu"
+    },
+    {
+      "timeMs": 58438,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": ""
+    },
+    {
+      "timeMs": 58735,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 7,
+      "text": "st"
+    },
+    {
+      "timeMs": 59626,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 14,
+      "text": "your"
+    },
+    {
+      "timeMs": 59923,
+      "lengthMs": 792,
+      "part": 0,
+      "row": 13,
+      "text": "ba"
+    },
+    {
+      "timeMs": 60814,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": ""
+    },
+    {
+      "timeMs": 61111,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 9,
+      "text": "lls,"
+    },
+    {
+      "timeMs": 62002,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 16,
+      "text": "you"
+    },
+    {
+      "timeMs": 62299,
+      "lengthMs": 2327,
+      "part": 0,
+      "row": 16,
+      "text": "wi",
+      "hero": true
+    },
+    {
+      "timeMs": 64774,
+      "lengthMs": 743,
+      "part": 0,
+      "row": 14,
+      "text": "ll"
+    },
+    {
+      "timeMs": 66755,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": "lo"
+    },
+    {
+      "timeMs": 67052,
+      "lengthMs": 446,
+      "part": 0,
+      "row": 8,
+      "text": "ve."
+    },
+    {
+      "timeMs": 77745,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 4,
+      "text": "Wel"
+    },
+    {
+      "timeMs": 78042,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "come"
+    },
+    {
+      "timeMs": 78339,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "to"
+    },
+    {
+      "timeMs": 78636,
+      "lengthMs": 396,
+      "part": 0,
+      "row": 11,
+      "text": "my"
+    },
+    {
+      "timeMs": 79131,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "re"
+    },
+    {
+      "timeMs": 79279,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 4,
+      "text": "a"
+    },
+    {
+      "timeMs": 79576,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 7,
+      "text": "li"
+    },
+    {
+      "timeMs": 80121,
+      "lengthMs": 396,
+      "part": 0,
+      "row": 11,
+      "text": "ty."
+    },
+    {
+      "timeMs": 82794,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": "Wel"
+    },
+    {
+      "timeMs": 83091,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": "come"
+    },
+    {
+      "timeMs": 83388,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 9,
+      "text": "to"
+    },
+    {
+      "timeMs": 83586,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "the"
+    },
+    {
+      "timeMs": 83883,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 9,
+      "text": "show."
+    },
+    {
+      "timeMs": 86656,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "In"
+    },
+    {
+      "timeMs": 86804,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "my"
+    },
+    {
+      "timeMs": 86953,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 12,
+      "text": "barn"
+    },
+    {
+      "timeMs": 87250,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 11,
+      "text": "there's"
+    },
+    {
+      "timeMs": 87398,
+      "lengthMs": 50,
+      "part": 0,
+      "row": 9,
+      "text": "a"
+    },
+    {
+      "timeMs": 87547,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 12,
+      "text": "man"
+    },
+    {
+      "timeMs": 87844,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 12,
+      "text": "for"
+    },
+    {
+      "timeMs": 88042,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 14,
+      "text": "say"
+    },
+    {
+      "timeMs": 88289,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 12,
+      "text": "like"
+    },
+    {
+      "timeMs": 88735,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": "just"
+    },
+    {
+      "timeMs": 89032,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 4,
+      "text": "a"
+    },
+    {
+      "timeMs": 89230,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 4,
+      "text": "bout"
+    },
+    {
+      "timeMs": 89626,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 4,
+      "text": "ev"
+    },
+    {
+      "timeMs": 89774,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 4,
+      "text": "ery"
+    },
+    {
+      "timeMs": 89923,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": "thou"
+    },
+    {
+      "timeMs": 90220,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 11,
+      "text": "sand"
+    },
+    {
+      "timeMs": 90418,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 9,
+      "text": "hens"
+    },
+    {
+      "timeMs": 90814,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "and"
+    },
+    {
+      "timeMs": 91012,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 9,
+      "text": "one"
+    },
+    {
+      "timeMs": 92002,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 2,
+      "text": "of"
+    },
+    {
+      "timeMs": 92151,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 2,
+      "text": "them"
+    },
+    {
+      "timeMs": 92349,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 11,
+      "text": "rare",
+      "hero": true
+    },
+    {
+      "timeMs": 92794,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 9,
+      "text": "men"
+    },
+    {
+      "timeMs": 93190,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 4,
+      "text": "is"
+    },
+    {
+      "timeMs": 93487,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 7,
+      "text": "me."
+    },
+    {
+      "timeMs": 94972,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 4,
+      "text": "And"
+    },
+    {
+      "timeMs": 95269,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "when"
+    },
+    {
+      "timeMs": 95418,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": "I"
+    },
+    {
+      "timeMs": 95863,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 11,
+      "text": "stay"
+    },
+    {
+      "timeMs": 96458,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": ""
+    },
+    {
+      "timeMs": 96755,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 7,
+      "text": ""
+    },
+    {
+      "timeMs": 97646,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 14,
+      "text": "this"
+    },
+    {
+      "timeMs": 97943,
+      "lengthMs": 792,
+      "part": 0,
+      "row": 13,
+      "text": "way",
+      "hero": true
+    },
+    {
+      "timeMs": 98834,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": ""
+    },
+    {
+      "timeMs": 99131,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": ","
+    },
+    {
+      "timeMs": 100022,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": "you'll"
+    },
+    {
+      "timeMs": 100319,
+      "lengthMs": 693,
+      "part": 0,
+      "row": 7,
+      "text": "ne"
+    },
+    {
+      "timeMs": 101210,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "ver"
+    },
+    {
+      "timeMs": 101507,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 7,
+      "text": "go"
+    },
+    {
+      "timeMs": 102151,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 9,
+      "text": "a"
+    },
+    {
+      "timeMs": 102695,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 9,
+      "text": "way."
+    },
+    {
+      "timeMs": 104725,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "When"
+    },
+    {
+      "timeMs": 104873,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 9,
+      "text": "I"
+    },
+    {
+      "timeMs": 105368,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 11,
+      "text": "bu"
+    },
+    {
+      "timeMs": 105962,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": ""
+    },
+    {
+      "timeMs": 106260,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 7,
+      "text": "st"
+    },
+    {
+      "timeMs": 107151,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 14,
+      "text": "your"
+    },
+    {
+      "timeMs": 107448,
+      "lengthMs": 792,
+      "part": 0,
+      "row": 13,
+      "text": "ba"
+    },
+    {
+      "timeMs": 108339,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": ""
+    },
+    {
+      "timeMs": 108636,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 9,
+      "text": "lls,"
+    },
+    {
+      "timeMs": 109527,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 16,
+      "text": "you"
+    },
+    {
+      "timeMs": 109824,
+      "lengthMs": 2327,
+      "part": 0,
+      "row": 16,
+      "text": "wi"
+    },
+    {
+      "timeMs": 112299,
+      "lengthMs": 743,
+      "part": 0,
+      "row": 14,
+      "text": "ll"
+    },
+    {
+      "timeMs": 114279,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 20,
+      "text": "lo"
+    },
+    {
+      "timeMs": 114576,
+      "lengthMs": 2228,
+      "part": 0,
+      "row": 20,
+      "text": "",
+      "hero": true
+    },
+    {
+      "timeMs": 116953,
+      "lengthMs": 545,
+      "part": 0,
+      "row": 21,
+      "text": "ve"
+    },
+    {
+      "timeMs": 119032,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "Lo"
+    },
+    {
+      "timeMs": 119329,
+      "lengthMs": 2228,
+      "part": 0,
+      "row": 7,
+      "text": ""
+    },
+    {
+      "timeMs": 121705,
+      "lengthMs": 594,
+      "part": 0,
+      "row": 6,
+      "text": "ve"
+    },
+    {
+      "timeMs": 123784,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": "Lo"
+    },
+    {
+      "timeMs": 124081,
+      "lengthMs": 2228,
+      "part": 0,
+      "row": 8,
+      "text": ""
+    },
+    {
+      "timeMs": 126458,
+      "lengthMs": 545,
+      "part": 0,
+      "row": 9,
+      "text": "ve"
+    },
+    {
+      "timeMs": 128537,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": "Lo"
+    },
+    {
+      "timeMs": 128834,
+      "lengthMs": 396,
+      "part": 0,
+      "row": 9,
+      "text": "ve"
+    },
+    {
+      "timeMs": 129725,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": "lo"
+    },
+    {
+      "timeMs": 130022,
+      "lengthMs": 446,
+      "part": 0,
+      "row": 8,
+      "text": "ve"
+    },
+    {
+      "timeMs": 130913,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 4,
+      "text": "Lo"
+    },
+    {
+      "timeMs": 131210,
+      "lengthMs": 1089,
+      "part": 0,
+      "row": 6,
+      "text": ""
+    },
+    {
+      "timeMs": 132398,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 7,
+      "text": ""
+    },
+    {
+      "timeMs": 132695,
+      "lengthMs": 792,
+      "part": 0,
+      "row": 4,
+      "text": "ve"
+    },
+    {
+      "timeMs": 161804,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 8,
+      "text": "I"
+    },
+    {
+      "timeMs": 162398,
+      "lengthMs": 2079,
+      "part": 0,
+      "row": 8,
+      "text": "stay"
+    },
+    {
+      "timeMs": 164576,
+      "lengthMs": 446,
+      "part": 0,
+      "row": 9,
+      "text": ""
+    },
+    {
+      "timeMs": 166557,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 6,
+      "text": "this"
+    },
+    {
+      "timeMs": 166854,
+      "lengthMs": 2228,
+      "part": 0,
+      "row": 7,
+      "text": "way",
+      "hero": true
+    },
+    {
+      "timeMs": 169230,
+      "lengthMs": 644,
+      "part": 0,
+      "row": 6,
+      "text": ""
+    },
+    {
+      "timeMs": 171309,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": "I"
+    },
+    {
+      "timeMs": 171606,
+      "lengthMs": 2228,
+      "part": 0,
+      "row": 8,
+      "text": "stay"
+    },
+    {
+      "timeMs": 173982,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": ""
+    },
+    {
+      "timeMs": 174279,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 8,
+      "text": ""
+    },
+    {
+      "timeMs": 174576,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 4,
+      "text": ""
+    },
+    {
+      "timeMs": 176061,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": "this"
+    },
+    {
+      "timeMs": 176359,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": "way"
+    },
+    {
+      "timeMs": 176656,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 4,
+      "text": ""
+    },
+    {
+      "timeMs": 177250,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": "This"
+    },
+    {
+      "timeMs": 177547,
+      "lengthMs": 396,
+      "part": 0,
+      "row": 9,
+      "text": "way"
+    },
+    {
+      "timeMs": 178438,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": "this"
+    },
+    {
+      "timeMs": 178735,
+      "lengthMs": 1089,
+      "part": 0,
+      "row": 11,
+      "text": "way"
+    },
+    {
+      "timeMs": 179923,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 12,
+      "text": ""
+    },
+    {
+      "timeMs": 180220,
+      "lengthMs": 396,
+      "part": 0,
+      "row": 9,
+      "text": ""
+    },
+    {
+      "timeMs": 180764,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "When"
+    },
+    {
+      "timeMs": 180913,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": "I"
+    },
+    {
+      "timeMs": 181408,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 11,
+      "text": "stay",
+      "hero": true
+    },
+    {
+      "timeMs": 182002,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": ""
+    },
+    {
+      "timeMs": 182299,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 7,
+      "text": ""
+    },
+    {
+      "timeMs": 183190,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 14,
+      "text": "this"
+    },
+    {
+      "timeMs": 183487,
+      "lengthMs": 792,
+      "part": 0,
+      "row": 13,
+      "text": "way"
+    },
+    {
+      "timeMs": 184378,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": ""
+    },
+    {
+      "timeMs": 184675,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": ","
+    },
+    {
+      "timeMs": 185566,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": "you'll"
+    },
+    {
+      "timeMs": 185863,
+      "lengthMs": 693,
+      "part": 0,
+      "row": 7,
+      "text": "ne"
+    },
+    {
+      "timeMs": 186755,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "ver"
+    },
+    {
+      "timeMs": 187052,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 7,
+      "text": "go"
+    },
+    {
+      "timeMs": 187646,
+      "lengthMs": 347,
+      "part": 0,
+      "row": 9,
+      "text": "a"
+    },
+    {
+      "timeMs": 188240,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 9,
+      "text": "way."
+    },
+    {
+      "timeMs": 190269,
+      "lengthMs": 99,
+      "part": 0,
+      "row": 7,
+      "text": "When"
+    },
+    {
+      "timeMs": 190418,
+      "lengthMs": 248,
+      "part": 0,
+      "row": 9,
+      "text": "I"
+    },
+    {
+      "timeMs": 190913,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 11,
+      "text": "bu"
+    },
+    {
+      "timeMs": 191507,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 9,
+      "text": ""
+    },
+    {
+      "timeMs": 191804,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 7,
+      "text": "st"
+    },
+    {
+      "timeMs": 192695,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 14,
+      "text": "your"
+    },
+    {
+      "timeMs": 192992,
+      "lengthMs": 792,
+      "part": 0,
+      "row": 13,
+      "text": "ba",
+      "hero": true
+    },
+    {
+      "timeMs": 193883,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 11,
+      "text": ""
+    },
+    {
+      "timeMs": 194180,
+      "lengthMs": 297,
+      "part": 0,
+      "row": 9,
+      "text": "lls,"
+    },
+    {
+      "timeMs": 195071,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 16,
+      "text": "you"
+    },
+    {
+      "timeMs": 195368,
+      "lengthMs": 2228,
+      "part": 0,
+      "row": 16,
+      "text": "wi"
+    },
+    {
+      "timeMs": 197745,
+      "lengthMs": 1287,
+      "part": 0,
+      "row": 14,
+      "text": "ll"
+    },
+    {
+      "timeMs": 199824,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 20,
+      "text": "lo"
+    },
+    {
+      "timeMs": 200121,
+      "lengthMs": 2228,
+      "part": 0,
+      "row": 20,
+      "text": ""
+    },
+    {
+      "timeMs": 202497,
+      "lengthMs": 545,
+      "part": 0,
+      "row": 21,
+      "text": "ve"
+    },
+    {
+      "timeMs": 204576,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 7,
+      "text": "Lo"
+    },
+    {
+      "timeMs": 204873,
+      "lengthMs": 2228,
+      "part": 0,
+      "row": 7,
+      "text": ""
+    },
+    {
+      "timeMs": 207250,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 6,
+      "text": "ve"
+    },
+    {
+      "timeMs": 209329,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": "Lo"
+    },
+    {
+      "timeMs": 209626,
+      "lengthMs": 2228,
+      "part": 0,
+      "row": 8,
+      "text": "",
+      "hero": true
+    },
+    {
+      "timeMs": 212002,
+      "lengthMs": 495,
+      "part": 0,
+      "row": 9,
+      "text": "ve"
+    },
+    {
+      "timeMs": 214081,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 11,
+      "text": "Lo"
+    },
+    {
+      "timeMs": 214378,
+      "lengthMs": 396,
+      "part": 0,
+      "row": 9,
+      "text": "ve"
+    },
+    {
+      "timeMs": 215269,
+      "lengthMs": 149,
+      "part": 0,
+      "row": 9,
+      "text": "lo"
+    },
+    {
+      "timeMs": 215566,
+      "lengthMs": 347,
+      "part": 0,
+      "row": 8,
+      "text": "ve"
+    },
+    {
+      "timeMs": 216458,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 4,
+      "text": "Lo"
+    },
+    {
+      "timeMs": 216755,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 4,
+      "text": ""
+    },
+    {
+      "timeMs": 217052,
+      "lengthMs": 792,
+      "part": 0,
+      "row": 6,
+      "text": ""
+    },
+    {
+      "timeMs": 217943,
+      "lengthMs": 198,
+      "part": 0,
+      "row": 7,
+      "text": ""
+    },
+    {
+      "timeMs": 218240,
+      "lengthMs": 743,
+      "part": 0,
+      "row": 4,
+      "text": ""
+    },
+    {
+      "timeMs": 219131,
+      "lengthMs": 396,
+      "part": 0,
+      "row": 0,
+      "text": "ve"
+    }
+  ]
+}

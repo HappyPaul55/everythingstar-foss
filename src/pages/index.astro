@@ -1,0 +1,151 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { songs, stats } from "../lib/library";
+
+const featured = songs.slice(0, 6);
+---
+
+<BaseLayout
+  title="EverythingStar FOSS — a free, non-commercial song library"
+  description="37 UltraStar songs converted for EverythingStar and Guitar Hero-compatible players, with separated vocals, guitar, bass, drums, keys and other stems, vocal charts and a full licence audit."
+>
+  <div class="container">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">A non-commercial song library</p>
+        <h1>Everything<em>Star</em> FOSS</h1>
+        <p class="lede">
+          UltraStar songs converted into ready-to-play Guitar Hero / Clone Hero /
+          YARG folders and EverythingStar documents — with separated vocals,
+          guitar, bass, drums, keys and other stems. Free to use, no ads, no
+          accounts, no paywall.
+        </p>
+        <div class="actions">
+          <a class="button button--yellow" href="/songs">Browse {stats.songs} songs</a>
+          <a class="button button--ghost" href="/songs/playlist.json">Playlist JSON</a>
+          <a class="button button--ghost" href="/licenses">Licences</a>
+        </div>
+      </div>
+      <div class="stats" aria-label="Library numbers">
+        <div class="stat"><strong>{stats.songs}</strong><span>songs</span></div>
+        <div class="stat"><strong>{stats.stemsPerSong}</strong><span>stems each</span></div>
+        <div class="stat"><strong>OGG</strong><span>only, {stats.ogg}</span></div>
+        <div class="stat"><strong>{stats.excluded}</strong><span>not included</span></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">What this is</p>
+      <h2>A library, not a game</h2>
+      <p class="section__lede">
+        This site is deliberately separate from the EverythingStar game. It is a
+        public, non-commercial archive of the songs and their separated stems;
+        the game can read it through the playlist document, but the library does
+        not depend on the game.
+      </p>
+      <div class="columns">
+        <div class="panel">
+          <h3>Ready to play</h3>
+          <p>
+            Each folder carries a <code>notes.mid</code> vocal chart, a
+            <code>song.ini</code>, a preview and six OGG stems. Clone Hero, YARG
+            and EverythingStar can all read the same folder.
+          </p>
+        </div>
+        <div class="panel">
+          <h3>Stems, not guesses</h3>
+          <p>
+            Demucs <code>htdemucs_6s</code> splits the master into vocals,
+            guitar, bass, drums, keys and the residual “other” stem. No guitar,
+            bass or drum charts were invented; those instruments are ready for a
+            chart later.
+          </p>
+        </div>
+        <div class="panel">
+          <h3>Licences on the record</h3>
+          <p>
+            Every song keeps its original <code>license.txt</code>. The audit
+            records the audio, chart and artwork licences, the changes made, and
+            the two songs that cannot be included because they are
+            NoDerivatives.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">A few of them</p>
+      <h2>In the library</h2>
+      <p class="section__lede">
+        {stats.songs} songs, mostly Creative Commons guitar-driven pop and rock.
+        Every song has a 30-second preview on its page.
+      </p>
+      <div class="grid">
+        {
+          featured.map((song) => (
+            <a class="card" href={`/songs/${song.id}`}>
+              {song.cover ? <img src={song.cover} alt="" loading="lazy" /> : null}
+              <div class="card__body">
+                <div class="card__title">{song.title}</div>
+                <div class="card__meta">{song.artist} · {song.duration}</div>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+      <div class="actions">
+        <a class="button" href="/songs">See every song</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">How to use it</p>
+      <h2>Point a player at the playlist</h2>
+      <p class="section__lede">
+        In EverythingStar, open <strong>Playlists → Add a playlist</strong> and
+        paste the URL below. Clone Hero and YARG can copy any song folder into
+        their Songs directory and scan it.
+      </p>
+      <code class="code">https://everythingstar-foss.happypaul55.com/songs/playlist.json</code>
+      <div class="columns" style="margin-top: 1rem;">
+        <div class="panel">
+          <h3>EverythingStar</h3>
+          <p>
+            The playlist points at per-song <code>song.json</code> and
+            <code>vocals.json</code> documents. A singing player automatically
+            drops the guide vocal out of the mix.
+          </p>
+        </div>
+        <div class="panel">
+          <h3>Clone Hero / YARG</h3>
+          <p>
+            Copy a song folder into Songs and scan. The six stems play together;
+            use the game's vocal-volume setting if you do not want the guide
+            vocal.
+          </p>
+        </div>
+        <div class="panel">
+          <h3>Static and CORS-ready</h3>
+          <p>
+            The whole library is static files. <code>_headers</code> allows
+            cross-origin reads, so a game on another origin can fetch the
+            playlist, charts and audio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Please read</p>
+      <h2>Non-commercial, attributed</h2>
+      <div class="notice">
+        <strong>This library is non-commercial.</strong> Nothing here may be sold,
+        put behind a paywall, or used to promote a commercial service. The
+        songs remain under their own Creative Commons licences; see
+        <a href="/licenses">Licences</a> and the per-song
+        <code>license.txt</code>. Two NoDerivatives songs are deliberately not
+        included.
+      </div>
+    </section>
+  </div>
+</BaseLayout>

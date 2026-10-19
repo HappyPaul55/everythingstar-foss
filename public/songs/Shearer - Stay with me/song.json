@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "shearer-stay-with-me",
+  "title": "Stay with me",
+  "artist": {
+    "id": "shearer",
+    "name": "Shearer"
+  },
+  "art": "album.jpg",
+  "durationMs": 210960,
+  "previewStartMs": 63288,
+  "audio": {
+    "stems": [
+      {
+        "id": "stem_master",
+        "name": "Backing (other)",
+        "url": "song.ogg"
+      },
+      {
+        "id": "stem_vocals",
+        "name": "Vocals",
+        "url": "vocals.ogg",
+        "instrument": "vocals"
+      },
+      {
+        "id": "stem_lead_guitar",
+        "name": "Lead Guitar",
+        "url": "guitar.ogg",
+        "instrument": "lead_guitar"
+      },
+      {
+        "id": "stem_bass",
+        "name": "Bass",
+        "url": "bass.ogg",
+        "instrument": "bass"
+      },
+      {
+        "id": "stem_drums",
+        "name": "Drums",
+        "url": "drums.ogg",
+        "instrument": "drums"
+      },
+      {
+        "id": "stem_keys",
+        "name": "Keys",
+        "url": "keys.ogg",
+        "instrument": "keys"
+      }
+    ],
+    "mixPresets": {
+      "full": {
+        "stemIds": [
+          "stem_master",
+          "stem_vocals",
+          "stem_lead_guitar",
+          "stem_bass",
+          "stem_drums",
+          "stem_keys"
+        ]
+      },
+      "stems": {
+        "stemIds": [
+          "stem_vocals",
+          "stem_lead_guitar",
+          "stem_bass",
+          "stem_drums",
+          "stem_keys"
+        ]
+      }
+    },
+    "preview": "preview.ogg"
+  },
+  "parts": [
+    {
+      "id": "part_vocals",
+      "role": "vocals",
+      "controllerTypes": [],
+      "audioControl": {
+        "controlledStemIds": [
+          "stem_vocals"
+        ],
+        "onHit": {
+          "action": "unmute",
+          "fadeMs": 20
+        },
+        "onMiss": {
+          "action": "mute",
+          "fadeMs": 80,
+          "restore": "next_hit"
+        }
+      },
+      "charts": [
+        {
+          "id": "shearer-stay-with-me-voice",
+          "chartType": "vocals",
+          "url": "vocals.json"
+        }
+      ]
+    }
+  ]
+}
