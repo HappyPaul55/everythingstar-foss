@@ -6,9 +6,14 @@
     "id": "jonathan-coulton",
     "name": "Jonathan Coulton"
   },
-  "art": "album.png",
-  "durationMs": 189336,
-  "previewStartMs": 56801,
+  "album": {
+    "id": "thing-a-week-three",
+    "name": "Thing-a-Week Three",
+    "year": 2006
+  },
+  "art": "album.jpg",
+  "durationMs": 189973,
+  "previewStartMs": 23000,
   "audio": {
     "stems": [
       {
@@ -35,16 +40,22 @@
         "instrument": "bass"
       },
       {
-        "id": "stem_drums",
-        "name": "Drums",
-        "url": "drums.ogg",
+        "id": "stem_drums_1",
+        "name": "Drums 1",
+        "url": "drums_1.ogg",
         "instrument": "drums"
       },
       {
-        "id": "stem_keys",
-        "name": "Keys",
-        "url": "keys.ogg",
-        "instrument": "keys"
+        "id": "stem_drums_2",
+        "name": "Drums 2",
+        "url": "drums_2.ogg",
+        "instrument": "drums"
+      },
+      {
+        "id": "stem_drums_3",
+        "name": "Drums 3",
+        "url": "drums_3.ogg",
+        "instrument": "drums"
       }
     ],
     "mixPresets": {
@@ -54,8 +65,9 @@
           "stem_vocals",
           "stem_lead_guitar",
           "stem_bass",
-          "stem_drums",
-          "stem_keys"
+          "stem_drums_1",
+          "stem_drums_2",
+          "stem_drums_3"
         ]
       },
       "stems": {
@@ -63,14 +75,218 @@
           "stem_vocals",
           "stem_lead_guitar",
           "stem_bass",
-          "stem_drums",
-          "stem_keys"
+          "stem_drums_1",
+          "stem_drums_2",
+          "stem_drums_3"
         ]
       }
     },
     "preview": "preview.ogg"
   },
+  "sections": [
+    {
+      "timeMs": 0,
+      "name": "0%-10%"
+    },
+    {
+      "timeMs": 18029,
+      "name": "10%-20%"
+    },
+    {
+      "timeMs": 37528,
+      "name": "20%-30%"
+    },
+    {
+      "timeMs": 57037,
+      "name": "30%-40%"
+    },
+    {
+      "timeMs": 75037,
+      "name": "40%-50%"
+    },
+    {
+      "timeMs": 94534,
+      "name": "50%-60%"
+    },
+    {
+      "timeMs": 114029,
+      "name": "60%-70%"
+    },
+    {
+      "timeMs": 132035,
+      "name": "70%-80%"
+    },
+    {
+      "timeMs": 151536,
+      "name": "80%-90%"
+    },
+    {
+      "timeMs": 171036,
+      "name": "90%-100%"
+    }
+  ],
   "parts": [
+    {
+      "id": "part_guitar",
+      "role": "guitar",
+      "controllerTypes": [],
+      "audioControl": {
+        "controlledStemIds": [
+          "stem_lead_guitar"
+        ],
+        "onHit": {
+          "action": "unmute",
+          "fadeMs": 20
+        },
+        "onMiss": {
+          "action": "mute",
+          "fadeMs": 80,
+          "restore": "next_hit"
+        }
+      },
+      "charts": [
+        {
+          "id": "code-monkey-guitar-easy",
+          "chartType": "lanes",
+          "difficulty": "easy",
+          "laneCount": 3,
+          "bpm": 158.07,
+          "url": "guitar-easy.json"
+        },
+        {
+          "id": "code-monkey-guitar-normal",
+          "chartType": "lanes",
+          "difficulty": "normal",
+          "laneCount": 4,
+          "bpm": 158.07,
+          "url": "guitar-normal.json"
+        },
+        {
+          "id": "code-monkey-guitar-hard",
+          "chartType": "lanes",
+          "difficulty": "hard",
+          "laneCount": 5,
+          "bpm": 158.07,
+          "url": "guitar-hard.json"
+        },
+        {
+          "id": "code-monkey-guitar-expert",
+          "chartType": "lanes",
+          "difficulty": "expert",
+          "laneCount": 5,
+          "bpm": 158.07,
+          "url": "guitar-expert.json"
+        }
+      ]
+    },
+    {
+      "id": "part_bass",
+      "role": "bass",
+      "controllerTypes": [],
+      "audioControl": {
+        "controlledStemIds": [
+          "stem_bass"
+        ],
+        "onHit": {
+          "action": "unmute",
+          "fadeMs": 20
+        },
+        "onMiss": {
+          "action": "mute",
+          "fadeMs": 80,
+          "restore": "next_hit"
+        }
+      },
+      "charts": [
+        {
+          "id": "code-monkey-bass-easy",
+          "chartType": "lanes",
+          "difficulty": "easy",
+          "laneCount": 3,
+          "bpm": 158.07,
+          "url": "bass-easy.json"
+        },
+        {
+          "id": "code-monkey-bass-normal",
+          "chartType": "lanes",
+          "difficulty": "normal",
+          "laneCount": 4,
+          "bpm": 158.07,
+          "url": "bass-normal.json"
+        },
+        {
+          "id": "code-monkey-bass-hard",
+          "chartType": "lanes",
+          "difficulty": "hard",
+          "laneCount": 5,
+          "bpm": 158.07,
+          "url": "bass-hard.json"
+        },
+        {
+          "id": "code-monkey-bass-expert",
+          "chartType": "lanes",
+          "difficulty": "expert",
+          "laneCount": 5,
+          "bpm": 158.07,
+          "url": "bass-expert.json"
+        }
+      ]
+    },
+    {
+      "id": "part_drums",
+      "role": "drums",
+      "controllerTypes": [],
+      "audioControl": {
+        "controlledStemIds": [
+          "stem_drums_1",
+          "stem_drums_2",
+          "stem_drums_3"
+        ],
+        "onHit": {
+          "action": "unmute",
+          "fadeMs": 20
+        },
+        "onMiss": {
+          "action": "mute",
+          "fadeMs": 80,
+          "restore": "next_hit"
+        }
+      },
+      "charts": [
+        {
+          "id": "code-monkey-drums-easy",
+          "chartType": "drums",
+          "difficulty": "easy",
+          "laneCount": 5,
+          "bpm": 158.07,
+          "url": "drums-easy.json"
+        },
+        {
+          "id": "code-monkey-drums-normal",
+          "chartType": "drums",
+          "difficulty": "normal",
+          "laneCount": 5,
+          "bpm": 158.07,
+          "url": "drums-normal.json"
+        },
+        {
+          "id": "code-monkey-drums-hard",
+          "chartType": "drums",
+          "difficulty": "hard",
+          "laneCount": 5,
+          "bpm": 158.07,
+          "url": "drums-hard.json"
+        },
+        {
+          "id": "code-monkey-drums-expert",
+          "chartType": "drums",
+          "difficulty": "expert",
+          "laneCount": 5,
+          "bpm": 158.07,
+          "url": "drums-expert.json"
+        }
+      ]
+    },
     {
       "id": "part_vocals",
       "role": "vocals",
@@ -91,7 +307,7 @@
       },
       "charts": [
         {
-          "id": "jonathan-coulton-code-monkey-voice",
+          "id": "code-monkey-voice",
           "chartType": "vocals",
           "url": "vocals.json"
         }

@@ -11,11 +11,39 @@
         "id": "jonathan-coulton",
         "name": "Jonathan Coulton"
       },
-      "art": "Jonathan Coulton - Code Monkey/album.png",
-      "durationMs": 189336,
-      "previewStartMs": 56801,
+      "art": "Jonathan Coulton - Code Monkey/album.jpg",
+      "durationMs": 189973,
+      "previewStartMs": 23000,
       "offer": {
-        "instruments": [],
+        "instruments": [
+          {
+            "role": "guitar",
+            "difficulties": [
+              "easy",
+              "normal",
+              "hard",
+              "expert"
+            ]
+          },
+          {
+            "role": "bass",
+            "difficulties": [
+              "easy",
+              "normal",
+              "hard",
+              "expert"
+            ]
+          },
+          {
+            "role": "drums",
+            "difficulties": [
+              "easy",
+              "normal",
+              "hard",
+              "expert"
+            ]
+          }
+        ],
         "voice": {
           "chartType": "vocals",
           "parts": 1

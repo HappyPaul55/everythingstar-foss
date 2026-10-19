@@ -124,21 +124,21 @@
       "title": "Code Monkey",
       "artist": "Jonathan Coulton",
       "audioLicense": "CC BY-NC 3.0",
-      "chartLicense": "CC BY-NC 3.0",
+      "chartLicense": "not stated",
       "coverLicense": "CC BY-NC 3.0",
       "backgroundLicense": "CC BY-NC-SA 2.0",
-      "videoLicense": "CC BY-NC-ND 3.0",
-      "derivatives": "allowed, non-commercial",
+      "videoLicense": "not used",
+      "derivatives": "audio and cover allowed, non-commercial; chart not stated",
       "commercialUse": false,
       "shareAlike": false,
-      "changes": "Audio separated into six stems with Demucs htdemucs_6s; UltraStar chart converted to Guitar Hero MIDI and EverythingStar JSON; cover resized to 512Ã—512; background artwork is not shipped; no video used.",
+      "changes": "Audio converted from NoisyPuppet's .opus multitrack to OGG stems (vocals, guitar, bass, three drum parts and backing); full-band Guitar Hero MIDI and EverythingStar charts; cover copied from the source; background artwork is not shipped; no video used.",
       "licenseFile": "Jonathan Coulton - Code Monkey/license.txt",
       "licenseUrls": [
         "http://creativecommons.org/licenses/by-nc/3.0/",
         "http://creativecommons.org/licenses/by-nc-sa/2.0/",
         "http://creativecommons.org/licenses/by-nc-nd/3.0/"
       ],
-      "notes": "Cover and background licences vary; see license.txt.",
+      "notes": "Full-band chart by NoisyPuppet; the source package states no chart licence. Audio and cover are CC BY-NC 3.0.",
       "included": true
     },
     {

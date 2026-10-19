@@ -9,7 +9,7 @@ const poster = songs.slice(0, 3);
 
 <BaseLayout
   title="EverythingStar FOSS — a free, non-commercial song library"
-  description="37 UltraStar songs converted for EverythingStar and Guitar Hero-compatible players, with separated vocals, guitar, bass, drums, keys and other stems, vocal charts and licence details on every song page."
+  description="37 UltraStar songs converted for EverythingStar and Guitar Hero-compatible players, with separated stems, charts and licence details on every song page."
 >
   <section class="hero-band on-ink">
     <div class="container hero">
@@ -50,14 +50,14 @@ const poster = songs.slice(0, 3);
         <div class="poster__label">
           <strong>{stats.songs}</strong>
           <span>songs in the library</span>
-          <span>{stats.stemsPerSong} stems · OGG</span>
+          <span>{stats.stemsLabel} stems · OGG</span>
         </div>
         <div class="poster__hazard" aria-hidden="true"></div>
       </div>
     </div>
     <div class="container hero-stats" aria-label="Library numbers">
       <div class="stat"><strong>{stats.songs}</strong><span>songs</span></div>
-      <div class="stat"><strong>{stats.stemsPerSong}</strong><span>stems each</span></div>
+      <div class="stat"><strong>{stats.stemsLabel}</strong><span>stems each</span></div>
       <div class="stat"><strong>OGG</strong><span>only, {stats.ogg}</span></div>
     </div>
   </section>
@@ -76,18 +76,17 @@ const poster = songs.slice(0, 3);
         <div class="panel sticker">
           <h3>Ready to play</h3>
           <p>
-            Each folder carries a <code>notes.mid</code> vocal chart, a{" "}
-            <code>song.ini</code>, a preview and six OGG stems. Clone Hero, YARG
-            and EverythingStar can all read the same folder.
+            Each folder carries a <code>notes.mid</code> chart, a{" "}
+            <code>song.ini</code>, a preview and the OGG stems it needs. Clone
+            Hero, YARG and EverythingStar can all read the same folder.
           </p>
         </div>
         <div class="panel sticker">
           <h3>Stems, not guesses</h3>
           <p>
-            Demucs <code>htdemucs_6s</code> splits the master into vocals,
-            guitar, bass, drums, keys and the residual “other” stem. No guitar,
-            bass or drum charts were invented; those instruments are ready for a
-            chart later.
+            Most songs are split into six stems with Demucs{" "}
+            <code>htdemucs_6s</code>; Code Monkey uses the source multitrack.
+            No guitar, bass or drum chart was invented from audio.
           </p>
         </div>
         <div class="panel sticker">
@@ -148,7 +147,7 @@ const poster = songs.slice(0, 3);
         <div class="panel">
           <h3>Clone Hero / YARG</h3>
           <p>
-            Copy a song folder into Songs and scan. The six stems play together;
+            Copy a song folder into Songs and scan. The stems play together;
             use the game's vocal-volume setting if you do not want the guide
             vocal.
           </p>

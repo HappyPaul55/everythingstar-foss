@@ -9,9 +9,12 @@ each song's `license.txt`. The conversion adds no new rights.
 
 Every included song has been changed from its UltraStar source:
 
-- the audio was separated into six stems with **Demucs `htdemucs_6s`**;
-- the UltraStar vocal chart was converted to **Guitar Hero MIDI** and the
-  EverythingStar JSON documents;
+- most songs had their audio separated into six stems with **Demucs
+  `htdemucs_6s`**; Code Monkey uses NoisyPuppet's source multitrack, converted
+  from Opus to OGG;
+- most songs had the UltraStar vocal chart converted to **Guitar Hero MIDI** and
+  the EverythingStar JSON documents; Code Monkey carries its source full-band
+  charts;
 - the cover was resized **unless its licence forbids derivatives**, in which
   case it was copied byte-for-byte;
 - background artwork is **not shipped**; only the cover is;
@@ -29,7 +32,7 @@ applies, and are non-commercial wherever the source is NonCommercial.
 | Better | Jonathan Coulton | CC BY-NC 3.0 | CC BY-NC 3.0 | allowed, non-commercial | [license.txt](https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/Jonathan%20Coulton%20-%20Better/license.txt) |
 | Big Bad World One | Jonathan Coulton | CC BY-NC 3.0 | CC BY-NC 3.0 | allowed, non-commercial | [license.txt](https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/Jonathan%20Coulton%20-%20Big%20Bad%20World%20One/license.txt) |
 | Chiron Beta Prime | Jonathan Coulton | CC BY-NC 3.0 | CC BY-NC 3.0 | allowed, non-commercial | [license.txt](https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/Jonathan%20Coulton%20-%20Chiron%20Beta%20Prime/license.txt) |
-| Code Monkey | Jonathan Coulton | CC BY-NC 3.0 | CC BY-NC 3.0 | allowed, non-commercial | [license.txt](https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/Jonathan%20Coulton%20-%20Code%20Monkey/license.txt) |
+| Code Monkey | Jonathan Coulton | CC BY-NC 3.0 | not stated | audio and cover allowed, non-commercial; chart not stated | [license.txt](https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/Jonathan%20Coulton%20-%20Code%20Monkey/license.txt) |
 | Creepy Doll | Jonathan Coulton | CC BY-NC 3.0 | CC BY-NC 3.0 | allowed, non-commercial | [license.txt](https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/Jonathan%20Coulton%20-%20Creepy%20Doll/license.txt) |
 | Dance, Soterios Johnson, Dance | Jonathan Coulton | CC BY-NC 3.0 | CC BY-NC 3.0 | allowed, non-commercial | [license.txt](https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/Jonathan%20Coulton%20-%20Dance%2C%20Soterios%20Johnson%2C%20Dance/license.txt) |
 | First of May | Jonathan Coulton | CC BY-NC 3.0 | CC BY-NC 3.0 | allowed, non-commercial | [license.txt](https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/Jonathan%20Coulton%20-%20First%20of%20May/license.txt) |
@@ -71,13 +74,15 @@ licence as the source. Attribution is required.
 ## Chart licences
 
 The Jonathan Coulton charts are explicitly licensed CC BY-NC 3.0 in their
-`license.txt`. For the other artists the supplied licence covers the audio,
-lyrics and/or artwork but **does not state a licence for the UltraStar chart
-file**. The chart authors are credited where the source names them. If you are a
+`license.txt`, with one exception: Code Monkey's full-band chart is by
+NoisyPuppet, and the source package states no chart licence. For the other
+artists the supplied licence covers the audio, lyrics and/or artwork but **does
+not state a licence for the UltraStar chart file**. The chart authors are credited where the source names them. If you are a
 chart author and want a song removed or credited differently, please open an
 issue.
 
 ## Model
 
 Demucs is MIT-licensed. The model licence does not add restrictions to the audio
-it processes; the source song's licence governs the stems.
+it processes; the source song's licence governs the stems. Code Monkey uses the
+source's own multitrack stems instead of a Demucs split.

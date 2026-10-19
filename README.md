@@ -60,14 +60,20 @@ scan it. The same folder works in all three.
 
 ```
 <Artist> - <Title>/
-  notes.mid          PART VOCALS only - lyrics, pitch, line markers
+  notes.mid          Guitar Hero MIDI chart (vocals; full band for Code Monkey)
   song.ini           Guitar Hero / Clone Hero / YARG metadata
   song.json          EverythingStar song document
   vocals.json        EverythingStar vocal chart
+  guitar-*.json      EverythingStar guitar charts (Code Monkey)
+  bass-*.json        EverythingStar bass charts (Code Monkey)
+  drums-*.json       EverythingStar drum charts (Code Monkey)
   vocals.ogg         vocals stem
   guitar.ogg         guitar stem
   bass.ogg           bass stem
-  drums.ogg          drums stem
+  drums.ogg          drums stem (six-stem songs)
+  drums_1.ogg        source drum stem 1 (Code Monkey)
+  drums_2.ogg        source drum stem 2 (Code Monkey)
+  drums_3.ogg        source drum stem 3 (Code Monkey)
   keys.ogg           piano stem
   song.ogg           "other" / backing stem
   preview.ogg        30 s preview
@@ -76,15 +82,18 @@ scan it. The same folder works in all three.
   stems.json         stem roles, gain and measured levels
 ```
 
-The six stems are a Demucs `htdemucs_6s` separation and sum back to the source
-mix. `song.ogg` is the residual/backing stem, by Guitar Hero convention.
+Most songs use six Demucs `htdemucs_6s` stems that sum back to the source mix.
+`song.ogg` is the residual/backing stem, by Guitar Hero convention. Code Monkey
+instead carries NoisyPuppet's source multitrack — vocals, guitar, bass, three
+drum stems and backing — converted 1:1 from Opus to OGG.
 
 In EverythingStar the vocal stem is held out while somebody is singing; a
 typing-only band and Listen keep the guide vocal. Clone Hero / YARG use their
 own vocal-volume setting.
 
-No guitar, bass or drum charts were generated. The only chart is the UltraStar
-vocal line converted 1:1; the instrument stems are ready for a chart later.
+Most songs carry only the UltraStar vocal chart. Code Monkey also carries
+NoisyPuppet's source full-band guitar, bass, drum and vocal charts. No notes
+were invented from audio.
 
 ## Conversion tool
 

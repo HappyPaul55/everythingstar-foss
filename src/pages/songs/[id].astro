@@ -18,7 +18,7 @@ const documents = files.slice(song.stems.length);
 
 <BaseLayout
   title={`${song.title} — EverythingStar FOSS`}
-  description={`${song.title} by ${song.artist}: separated vocals, guitar, bass, drums, keys and other stems, a vocal chart and licence details.`}
+  description={`${song.title} by ${song.artist}: separated stems, charts and licence details.`}
 >
   <div class="container">
     <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -35,12 +35,24 @@ const documents = files.slice(song.stems.length);
         <div class="detail__meta">
           <span class="pill">{song.duration}</span>
           <span class="pill pill--yellow">{song.license}</span>
-          <span class="pill">6 stems</span>
+          <span class="pill">{song.stems.length} stems</span>
         </div>
         <p class="detail__lede">
-          A vocal-only chart with separated stems for vocals, guitar, bass,
-          drums, keys and the residual “other” backing. No guitar, bass or drum
-          chart was invented — those instruments are ready for a chart later.
+          {song.fullBand ? (
+            <>
+              Full-band guitar, bass and drum charts
+              {song.charter ? ` by ${song.charter}` : ""}, with separated vocals,
+              guitar, bass, drums and backing stems. Nothing was invented from the
+              audio.
+            </>
+          ) : (
+            <>
+              A vocal-only chart with separated stems for vocals, guitar, bass,
+              drums, keys and the residual “other” backing. No guitar, bass or
+              drum chart was invented — those instruments are ready for a chart
+              later.
+            </>
+          )}
         </p>
         <audio controls preload="metadata" src={song.preview}>
           Your browser does not support the audio element.
@@ -69,9 +81,20 @@ const documents = files.slice(song.stems.length);
       <p class="eyebrow">Audio</p>
       <h2>Stems</h2>
       <p class="section__lede">
-        Six OGG files from Demucs <code>htdemucs_6s</code>. They sum back to the
-        source mix. <code>song.ogg</code> is the residual/backing stem, by Guitar
-        Hero convention.
+        {song.fullBand ? (
+          <>
+            {song.stems.length} OGG files from the source multitrack:{" "}
+            {song.stems.map((stem) => stem.label).join(", ")}. They sum back to
+            the source mix. <code>song.ogg</code> is the backing stem, by Guitar
+            Hero convention.
+          </>
+        ) : (
+          <>
+            Six OGG files from Demucs <code>htdemucs_6s</code>. They sum back to
+            the source mix. <code>song.ogg</code> is the residual/backing stem,
+            by Guitar Hero convention.
+          </>
+        )}
       </p>
       <ul class="file-list">
         {
@@ -94,8 +117,10 @@ const documents = files.slice(song.stems.length);
       <p class="eyebrow">Chart and documents</p>
       <h2>Files</h2>
       <p class="section__lede">
-        The same folder works in EverythingStar, Clone Hero and YARG. The chart
-        is the UltraStar vocal line converted 1:1.
+        The same folder works in EverythingStar, Clone Hero and YARG.{" "}
+        {song.fullBand
+          ? "It carries the source's full-band charts alongside the vocal chart."
+          : "The chart is the UltraStar vocal line converted 1:1."}
       </p>
       <ul class="file-list">
         {

@@ -6,15 +6,15 @@ import { PLAYLIST_URL } from "../lib/raw";
 
 <BaseLayout
   title="Songs — EverythingStar FOSS"
-  description="All songs in the EverythingStar FOSS library, with separated stems, vocal charts, previews and licence details."
+  description="All songs in the EverythingStar FOSS library, with separated stems, charts, previews and licence details."
 >
   <div class="container">
     <header class="page-head">
       <p class="eyebrow">The library</p>
       <h1>Songs</h1>
       <p>
-        {songs.length} converted UltraStar songs. Each one has a vocal chart, a
-        30-second preview and six separated OGG stems. Open a song for its files
+        {songs.length} converted UltraStar songs. Each one has a chart, a
+        30-second preview and separated OGG stems. Open a song for its files
         and licence, or filter the list below.
       </p>
     </header>
@@ -49,6 +49,7 @@ import { PLAYLIST_URL } from "../lib/raw";
               <a class="song__title" href={`/songs/${song.id}`}>{song.title}</a>
               <div class="song__meta">
                 {song.artist} · {song.duration} · {song.license}
+                {song.fullBand ? " · full band" : ""}
               </div>
             </div>
             <div class="song__actions">

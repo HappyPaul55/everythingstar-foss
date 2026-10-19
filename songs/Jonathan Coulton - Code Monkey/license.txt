@@ -46,3 +46,6 @@ UltraStar txt-Song File:
  Contact: skillmaster@ewetel.net
  Special Thanks to BlindGuard and Silverbeam for giving this song file the final touch.
  License: http://creativecommons.org/licenses/by-nc/3.0/
+------------------------------------------------------------------------
+Full-band chart in this folder: Code Monkey, charted by NoisyPuppet.
+The source package does not state a licence for this chart.
