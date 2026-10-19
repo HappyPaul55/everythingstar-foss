@@ -38,14 +38,6 @@ interface Playlist {
 
 interface Audit {
   songs: LicenseEntry[];
-  excluded: {
-    folder: string;
-    title: string;
-    artist: string;
-    license: string;
-    reason: string;
-    url: string;
-  }[];
 }
 
 const playlist = JSON.parse(readFileSync(join(LIBRARY, "playlist.json"), "utf8")) as Playlist;
@@ -153,7 +145,6 @@ export const songs: LibrarySong[] = playlist.songs.map((entry) => {
   };
 });
 
-export const excluded = audit.excluded;
 export const licenseEntries = [...audit.songs].sort((a, b) =>
   `${a.artist} ${a.title}`.localeCompare(`${b.artist} ${b.title}`),
 );
@@ -171,7 +162,6 @@ export const stats = (() => {
   }
   return {
     songs: songs.length,
-    excluded: excluded.length,
     stemsPerSong: STEMS.length,
     totalBytes: total,
     oggBytes: ogg,

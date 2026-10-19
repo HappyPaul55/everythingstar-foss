@@ -62,17 +62,6 @@ applies, and are non-commercial wherever the source is NonCommercial.
 | Verdächtig | Systemabsturz | CC0 1.0 | not stated | allowed | [license.txt](public/songs/Systemabsturz%20-%20Verd%C3%A4chtig/license.txt) |
 | Dare Master | Wasteland Wailers | CC BY-NC 3.0 | not stated | allowed, non-commercial | [license.txt](public/songs/Wasteland%20Wailers%20-%20Dare%20Master/license.txt) |
 
-## Not included
-
-These two songs are **NoDerivatives**; separating stems or converting the chart
-would create an adaptation. Written permission is needed before they can be
-added.
-
-| Song | Artist | Licence | Why |
-| --- | --- | --- | --- |
-| I 18 | Dead Smiling Pirates | CC BY-NC-ND 2.5 | NoDerivatives: stem separation and chart conversion are adaptations. Written permission is required. |
-| Space Invaders | Pornophonique | CC BY-NC-ND 2.0 | NoDerivatives: stem separation and chart conversion are adaptations. Written permission is required. |
-
 ## ShareAlike
 
 The Shearer songs, Fairy Bot Orchestra, Steven Dunston and Joshua Morin are

@@ -54,7 +54,6 @@ const poster = songs.slice(0, 3);
       <div class="stat"><strong>{stats.songs}</strong><span>songs</span></div>
       <div class="stat"><strong>{stats.stemsPerSong}</strong><span>stems each</span></div>
       <div class="stat"><strong>OGG</strong><span>only, {stats.ogg}</span></div>
-      <div class="stat"><strong>{stats.excluded}</strong><span>not included</span></div>
     </div>
   </section>
 
@@ -90,9 +89,7 @@ const poster = songs.slice(0, 3);
           <h3>Licences on the record</h3>
           <p>
             Every song keeps its original <code>license.txt</code>. The audit
-            records the audio, chart and artwork licences, the changes made, and
-            the two songs that cannot be included because they are
-            NoDerivatives.
+            records the audio, chart and artwork licences and the changes made.
           </p>
         </div>
       </div>
@@ -172,8 +169,8 @@ const poster = songs.slice(0, 3);
         put behind a paywall, or used to promote a commercial service. The
         songs remain under their own Creative Commons licences; see
         <a href="/licenses">Licences</a> and the per-song
-        <code>license.txt</code>. Two NoDerivatives songs are deliberately not
-        included.
+        <code>license.txt</code>. Only works whose licences permit derivative
+        use are included.
       </div>
     </section>
   </div>

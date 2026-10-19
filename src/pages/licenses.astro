@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { encodePath, excluded, licenseEntries, songs } from "../lib/library";
+import { encodePath, licenseEntries, songs } from "../lib/library";
 
 const idByFolder = new Map(songs.map((song) => [song.folder, song.id]));
 const routeFor = (folder: string) => `/songs/${idByFolder.get(folder) ?? ""}`;
@@ -8,7 +8,7 @@ const routeFor = (folder: string) => `/songs/${idByFolder.get(folder) ?? ""}`;
 
 <BaseLayout
   title="Licences — EverythingStar FOSS"
-  description="The full licence audit for the EverythingStar FOSS song library: audio, chart and artwork terms, share-alike notes, and the songs that are not included."
+  description="The full licence audit for the EverythingStar FOSS song library: audio, chart and artwork terms, and share-alike notes."
 >
   <div class="container">
     <header class="page-head">
@@ -23,12 +23,11 @@ const routeFor = (folder: string) => `/songs/${idByFolder.get(folder) ?? ""}`;
     </header>
 
     <div class="notice">
-      <strong>Two songs are not included.</strong> They are licensed
-      NoDerivatives, and separating stems or converting the chart would be an
-      adaptation. See <a href="#not-included">Not included</a>. For the other 13
-      non-Coulton songs, the supplied licence covers the audio and artwork but
-      does not state a separate chart licence; they are credited and marked
-      <code>not stated</code> below.
+      <strong>Only derivative-friendly works are included.</strong> A
+      NoDerivatives licence cannot permit stem separation or a chart
+      conversion. For the 13 non-Coulton songs, the supplied licence covers the
+      audio and artwork but does not state a separate chart licence; they are
+      credited and marked <code>not stated</code> below.
     </div>
 
     <section class="section">
@@ -74,35 +73,6 @@ const routeFor = (folder: string) => `/songs/${idByFolder.get(folder) ?? ""}`;
       </p>
     </section>
 
-    <section class="section" id="not-included">
-      <p class="eyebrow">Left out on purpose</p>
-      <h2>Not included</h2>
-      <div style="overflow-x: auto;">
-        <table class="license-table">
-          <thead>
-            <tr>
-              <th>Song</th>
-              <th>Artist</th>
-              <th>Licence</th>
-              <th>Why</th>
-            </tr>
-          </thead>
-          <tbody>
-            {
-              excluded.map((entry) => (
-                <tr>
-                  <td>{entry.title}</td>
-                  <td>{entry.artist}</td>
-                  <td><a href={entry.url}>{entry.license}</a></td>
-                  <td>{entry.reason}</td>
-                </tr>
-              ))
-            }
-          </tbody>
-        </table>
-      </div>
-    </section>
-
     <section class="section">
       <p class="eyebrow">The long version</p>
       <h2>Attribution and changes</h2>
@@ -113,7 +83,6 @@ const routeFor = (folder: string) => `/songs/${idByFolder.get(folder) ?? ""}`;
       </p>
       <div class="actions">
         <a class="button" href="/ATTRIBUTION.md">Attribution</a>
-        <a class="button button--ghost" href="/NOT-INCLUDED.md">Not included</a>
         <a class="button button--ghost" href="/songs/licenses.json">licenses.json</a>
       </div>
     </section>

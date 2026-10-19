@@ -458,6 +458,16 @@ main {
   font-size: 0.95rem;
   line-height: 1.6;
 }
+.site-footer__tagline a {
+  color: var(--yellow);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 212, 0, 0.45);
+  text-underline-offset: 2px;
+  transition: color 0.2s var(--ease);
+}
+.site-footer__tagline a:hover {
+  color: var(--cream);
+}
 .site-footer__heading {
   margin: 0;
   font-family: var(--font-display);
@@ -649,7 +659,7 @@ main {
 
 .hero-stats {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: clamp(2rem, 4vw, 3rem);
   border-top: 1px solid rgba(251, 251, 243, 0.16);
 }

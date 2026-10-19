@@ -6,8 +6,7 @@ lists it. It is deliberately separate from the EverythingStar game so the game
 can stay commercial while this library stays public and free.
 
 - **37 songs** in `public/songs/`, one folder each.
-- **Two songs are not included** because their licences forbid derivatives; see
-  `NOT-INCLUDED.md`.
+- Only works whose licences permit derivative use are included.
 - Every song keeps its original `license.txt`; see `ATTRIBUTION.md` and
   `public/songs/licenses.json` for the full audit.
 - Audio is **OGG-only** (stems + preview). No MP3 or WAV copies are shipped.
@@ -32,8 +31,7 @@ Pages:
 - `/songs/<id>` — one song’s stems, chart/document files and licence;
 - `/licenses` — the licence audit and the two exclusions;
 - `/songs/playlist.json` — the EverythingStar playlist;
-- `/ATTRIBUTION.md`, `/NOT-INCLUDED.md`, `/songs/licenses.json` — the raw
-  attribution files.
+- `/ATTRIBUTION.md`, `/songs/licenses.json` — the raw attribution files.
 
 The site reads `public/songs/playlist.json` and
 `public/songs/licenses.json` at build time, so it cannot drift from the

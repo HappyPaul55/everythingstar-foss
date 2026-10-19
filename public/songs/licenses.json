@@ -817,23 +817,5 @@
       "notes": "Chart licence not stated in the supplied file. Cover copied unmodified. Chart licence not stated; credit the chart author.",
       "included": true
     }
-  ],
-  "excluded": [
-    {
-      "folder": "Dead Smiling Pirates - I",
-      "title": "I 18",
-      "artist": "Dead Smiling Pirates",
-      "license": "CC BY-NC-ND 2.5",
-      "reason": "NoDerivatives: stem separation and chart conversion are adaptations. Written permission is required.",
-      "url": "https://creativecommons.org/licenses/by-nc-nd/2.5/"
-    },
-    {
-      "folder": "Pornophonique - Space Invaders",
-      "title": "Space Invaders",
-      "artist": "Pornophonique",
-      "license": "CC BY-NC-ND 2.0",
-      "reason": "NoDerivatives: stem separation and chart conversion are adaptations. Written permission is required.",
-      "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
-    }
   ]
 }
