@@ -51,7 +51,9 @@ const ogImage = new URL("/icons/android-chrome-512x512.png", Astro.site ?? Astro
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <header class="site-header">
+    <div class="hazard hazard--top" aria-hidden="true"></div>
+
+    <header class="site-header on-ink">
       <div class="container site-header__inner">
         <a class="brand" href="/">
           <span class="brand__mark" aria-hidden="true">E</span>
@@ -70,6 +72,7 @@ const ogImage = new URL("/icons/android-chrome-512x512.png", Astro.site ?? Astro
     </main>
 
     <footer class="site-footer">
+      <div class="hazard hazard--footer" aria-hidden="true"></div>
       <div class="container site-footer__inner">
         <p>
           A non-commercial fan library. The songs, lyrics, artwork and charts remain
