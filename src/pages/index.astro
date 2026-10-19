@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { songs, stats } from "../lib/library";
 
-const featured = songs.slice(0, 6);
+const featured = songs.slice(0, 5);
 const poster = songs.slice(0, 3);
 ---
 
@@ -14,7 +14,7 @@ const poster = songs.slice(0, 3);
     <div class="container hero">
       <div>
         <p class="eyebrow">A non-commercial song library</p>
-        <h1>Everything<em>Star</em> FOSS</h1>
+        <h1>Everything<span class="mark">Star</span> FOSS</h1>
         <p class="lede">
           UltraStar songs converted into ready-to-play Guitar Hero / Clone Hero /
           YARG folders and EverythingStar documents — with separated vocals,
@@ -102,7 +102,7 @@ const poster = songs.slice(0, 3);
         {stats.songs} songs, mostly Creative Commons guitar-driven pop and rock.
         Every song has a 30-second preview on its page.
       </p>
-      <div class="grid">
+      <div class="shelf">
         {
           featured.map((song) => (
             <a class="card" href={`/songs/${song.id}`}>
