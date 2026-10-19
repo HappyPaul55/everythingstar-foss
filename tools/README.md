@@ -19,7 +19,7 @@ checkout. It is excluded from the site's TypeScript check.
 ```bash
 bun tools/convert-ultrastar/index.ts \
   --song "../client-typestar-happypaul55-com/songs/Creative Commons/<Artist> - <Title>" \
-  --out public/songs
+  --out songs
 ```
 
 Demucs runs in WSL; `--python` and `--stems-script` can change the interpreter

@@ -1,7 +1,8 @@
 import { readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
+import { rawUrl } from "./raw";
 
-const LIBRARY = join(process.cwd(), "public", "songs");
+const LIBRARY = join(process.cwd(), "songs");
 
 interface PlaylistEntry {
   id: string;
@@ -88,21 +89,14 @@ export const DOCUMENTS: { file: string; label: string }[] = [
   { file: "license.txt", label: "Source licence" },
 ];
 
-export function encodePath(path: string): string {
-  return path
-    .split("/")
-    .map((part) => encodeURI(part))
-    .join("/");
-}
-
-export function formatDuration(ms: number): string {
+function formatDuration(ms: number): string {
   const total = Math.max(0, Math.round(ms / 1000));
   const minutes = Math.floor(total / 60);
   const seconds = total % 60;
   return `${minutes}:${String(seconds).padStart(2, "0")}`;
 }
 
-export function formatBytes(bytes: number): string {
+function formatBytes(bytes: number): string {
   if (bytes < 1024) return `${bytes} B`;
   if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)} KB`;
   return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
@@ -120,7 +114,7 @@ function stemFiles(folder: string): StemFile[] {
   return STEMS.map((stem) => ({
     ...stem,
     size: formatBytes(fileSize(folder, stem.file)),
-    url: `/songs/${encodePath(folder)}/${stem.file}`,
+    url: rawUrl(`${folder}/${stem.file}`),
   }));
 }
 
@@ -134,12 +128,12 @@ export const songs: LibrarySong[] = playlist.songs.map((entry) => {
     artist: entry.artist.name,
     durationMs: entry.durationMs,
     duration: formatDuration(entry.durationMs),
-    cover: entry.art ? `/songs/${encodePath(entry.art)}` : null,
-    preview: `/songs/${encodePath(folder)}/preview.ogg`,
+    cover: entry.art ? rawUrl(entry.art) : null,
+    preview: rawUrl(`${folder}/preview.ogg`),
     license: license?.audioLicense ?? "see license.txt",
     chartLicense: license?.chartLicense ?? "not stated",
     notes: license?.notes ?? "",
-    licenseFile: license ? `/songs/${encodePath(license.licenseFile)}` : null,
+    licenseFile: license ? rawUrl(license.licenseFile) : null,
     stems: stemFiles(folder),
     search: `${entry.title} ${entry.artist.name} ${license?.audioLicense ?? ""}`.toLowerCase(),
   };
@@ -172,7 +166,7 @@ export function songFiles(song: LibrarySong): StemFile[] {
     ...DOCUMENTS.map((doc) => ({
       ...doc,
       size: formatBytes(fileSize(song.folder, doc.file)),
-      url: `/songs/${encodePath(song.folder)}/${doc.file}`,
+      url: rawUrl(`${song.folder}/${doc.file}`),
     })),
   ];
 }

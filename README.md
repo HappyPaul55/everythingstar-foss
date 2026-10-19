@@ -5,10 +5,10 @@ EverythingStar and Guitar Hero-compatible players — plus the static site that
 lists it. It is deliberately separate from the EverythingStar game so the game
 can stay commercial while this library stays public and free.
 
-- **37 songs** in `public/songs/`, one folder each.
+- **37 songs** in `songs/`, one folder each.
 - Only works whose licences permit derivative use are included.
 - Every song keeps its original `license.txt`; see `ATTRIBUTION.md` and
-  `public/songs/licenses.json` for the full audit.
+  `songs/licenses.json` for the full audit.
 - Audio is **OGG-only** (stems + preview). No MP3 or WAV copies are shipped.
 
 ## The site
@@ -29,17 +29,20 @@ Pages:
 - `/` — what the library is, numbers, featured songs, how to use it;
 - `/songs` — the full list with search and 30-second previews;
 - `/songs/<id>` — one song’s stems, chart/document files and licence;
-- `/songs/playlist.json` — the EverythingStar playlist;
-- `/ATTRIBUTION.md`, `/songs/licenses.json` — the raw attribution files.
+- `/ATTRIBUTION.md` — the attribution page.
 
-Licence details live on each song page; there is no separate licences page.
-The game itself is at <https://everythingstar.happypaul55.com>.
+The playlist and every song asset are served from GitHub:
+`https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/<ref>/songs/`,
+where `<ref>` is `main` in production and the build commit for a branch or
+pull-request preview. Licence details live on each song page; there is no
+separate licences page. The game itself is at
+<https://everythingstar.happypaul55.com>.
 
-The site reads `public/songs/playlist.json` and
-`public/songs/licenses.json` at build time, so it cannot drift from the
-library. It is intended for `https://everythingstar-foss.happypaul55.com`.
-`public/_headers` sends `Access-Control-Allow-Origin: *` so a game on another
-origin can fetch the playlist, charts and audio.
+The site reads `songs/playlist.json` and `songs/licenses.json` at build time,
+so it cannot drift from the library. The library is not copied into `dist/`,
+so a deploy uploads only the site shell. It is intended for
+`https://everythingstar-foss.happypaul55.com`. Raw GitHub sends CORS headers,
+so a game on another origin can fetch the playlist, charts and audio.
 
 ## Using the library
 
@@ -47,7 +50,7 @@ Add this URL in EverythingStar’s **Playlists** dialog, or in any player that
 understands the same playlist / song / chart documents:
 
 ```
-https://everythingstar-foss.happypaul55.com/songs/playlist.json
+https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/playlist.json
 ```
 
 Clone Hero and YARG can copy any song folder into their Songs directory and

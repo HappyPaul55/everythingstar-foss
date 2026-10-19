@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { songs } from "../lib/library";
+import { PLAYLIST_URL } from "../lib/raw";
 ---
 
 <BaseLayout
@@ -29,7 +30,12 @@ import { songs } from "../lib/library";
         />
       </div>
       <span class="count" id="song-count" aria-live="polite">{songs.length} songs</span>
-      <a class="button button--ghost button--small" href="/songs/playlist.json">Playlist JSON</a>
+      <a
+        class="button button--ghost button--small"
+        href={PLAYLIST_URL}
+        target="_blank"
+        rel="noopener noreferrer">Playlist JSON</a
+      >
     </div>
 
     <ul class="song-list" id="song-list">

@@ -5,7 +5,7 @@
  * ```bash
  * bun tools/convert-ultrastar/index.ts \
  *   --song "C:/…/Jonathan Coulton - Code Monkey" \
- *   --out public/songs
+ *   --out songs
  * ```
  *
  * **Development tool only.** It imports the parsers from a sibling checkout of
@@ -61,7 +61,7 @@ interface Options {
 function parseArgs(argv: string[]): Options {
   const options: Options = {
     song: "",
-    out: join(ROOT, "public/songs"),
+    out: join(ROOT, "songs"),
     stemsScript: join(HERE, "stems.py"),
     python: "/home/happy/StemForge/.venv/bin/python",
     previewMs: null,

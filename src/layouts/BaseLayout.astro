@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import Mark from "../components/Mark.astro";
+import { PLAYLIST_URL } from "../lib/raw";
 
 interface Props {
   title: string;
@@ -21,11 +22,13 @@ const gameUrl = "https://everythingstar.happypaul55.com";
 
 const nav = [
   { href: "/songs", label: "Songs" },
-  { href: "/songs/playlist.json", label: "Playlist JSON" },
+  { href: PLAYLIST_URL, label: "Playlist JSON" },
 ];
 const pill = { href: gameUrl, label: "Play with EverythingStar" };
 
-const isActive = (href: string) => path === href || path.startsWith(`${href}/`);
+const isExternal = (href: string) => /^https?:\/\//.test(href);
+const isActive = (href: string) =>
+  !isExternal(href) && (path === href || path.startsWith(`${href}/`));
 ---
 
 <!doctype html>
@@ -75,7 +78,12 @@ const isActive = (href: string) => path === href || path.startsWith(`${href}/`);
         <nav class="nav-links nav-links--bar" aria-label="Primary">
           {
             nav.map((item) => (
-              <a href={item.href} aria-current={isActive(item.href) ? "page" : undefined}>
+              <a
+                href={item.href}
+                aria-current={isActive(item.href) ? "page" : undefined}
+                target={isExternal(item.href) ? "_blank" : undefined}
+                rel={isExternal(item.href) ? "noopener noreferrer" : undefined}
+              >
                 {item.label}
               </a>
             ))
@@ -103,7 +111,12 @@ const isActive = (href: string) => path === href || path.startsWith(`${href}/`);
           <nav class="nav-links nav-links--panel" aria-label="Primary">
             {
               nav.map((item) => (
-                <a href={item.href} aria-current={isActive(item.href) ? "page" : undefined}>
+                <a
+                  href={item.href}
+                  aria-current={isActive(item.href) ? "page" : undefined}
+                  target={isExternal(item.href) ? "_blank" : undefined}
+                  rel={isExternal(item.href) ? "noopener noreferrer" : undefined}
+                >
                   {item.label}
                 </a>
               ))
@@ -144,7 +157,11 @@ const isActive = (href: string) => path === href || path.startsWith(`${href}/`);
             <h2 class="site-footer__heading">Pages</h2>
             <ul class="site-footer__links">
               <li><a href="/songs">Songs</a></li>
-              <li><a href="/songs/playlist.json">Playlist JSON</a></li>
+              <li>
+                <a href={PLAYLIST_URL} target="_blank" rel="noopener noreferrer"
+                  >Playlist JSON</a
+                >
+              </li>
             </ul>
           </nav>
 

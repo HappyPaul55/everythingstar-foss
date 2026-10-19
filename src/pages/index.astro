@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { songs, stats } from "../lib/library";
+import { PLAYLIST_URL } from "../lib/raw";
 
 const featured = songs.slice(0, 5);
 const poster = songs.slice(0, 3);
@@ -23,7 +24,12 @@ const poster = songs.slice(0, 3);
         </p>
         <div class="actions">
           <a class="button button--yellow" href="/songs">Browse {stats.songs} songs</a>
-          <a class="button button--ghost" href="/songs/playlist.json">Playlist JSON</a>
+          <a
+            class="button button--ghost"
+            href={PLAYLIST_URL}
+            target="_blank"
+            rel="noopener noreferrer">Playlist JSON</a
+          >
         </div>
       </div>
       <div class="poster" aria-label="A taped stack of covers from the library">
@@ -129,7 +135,7 @@ const poster = songs.slice(0, 3);
         paste the URL below. Clone Hero and YARG can copy any song folder into
         their Songs directory and scan it.
       </p>
-      <code class="code">https://everythingstar-foss.happypaul55.com/songs/playlist.json</code>
+      <code class="code">{PLAYLIST_URL}</code>
       <div class="columns" style="margin-top: 1rem;">
         <div class="panel">
           <h3>EverythingStar</h3>
@@ -150,9 +156,8 @@ const poster = songs.slice(0, 3);
         <div class="panel">
           <h3>Static and CORS-ready</h3>
           <p>
-            The whole library is static files. <code>_headers</code> allows
-            cross-origin reads, so a game on another origin can fetch the
-            playlist, charts and audio.
+            The library is static files on GitHub. Raw GitHub sends CORS headers,
+            so a game on another origin can fetch the playlist, charts and audio.
           </p>
         </div>
       </div>

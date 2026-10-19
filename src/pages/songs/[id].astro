@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { songs, songFiles, type LibrarySong } from "../../lib/library";
+import { PLAYLIST_URL } from "../../lib/raw";
 
 export function getStaticPaths() {
   return songs.map((song) => ({
@@ -46,13 +47,19 @@ const documents = files.slice(song.stems.length);
         </audio>
         <div class="actions">
           <a class="button button--small" href="/songs">All songs</a>
-          <a class="button button--ghost button--small" href="/songs/playlist.json">
-            Playlist JSON
-          </a>
+          <a
+            class="button button--ghost button--small"
+            href={PLAYLIST_URL}
+            target="_blank"
+            rel="noopener noreferrer">Playlist JSON</a
+          >
           {song.licenseFile ? (
-            <a class="button button--ghost button--small" href={song.licenseFile}>
-              Source licence
-            </a>
+            <a
+              class="button button--ghost button--small"
+              href={song.licenseFile}
+              target="_blank"
+              rel="noopener noreferrer">Source licence</a
+            >
           ) : null}
         </div>
       </div>
@@ -70,7 +77,12 @@ const documents = files.slice(song.stems.length);
         {
           stems.map((file) => (
             <li>
-              <a href={file.url} download>{file.label}</a>
+              <a
+                href={file.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                download>{file.label}</a
+              >
               <span>{file.file} · {file.size}</span>
             </li>
           ))
@@ -89,7 +101,11 @@ const documents = files.slice(song.stems.length);
         {
           documents.map((file) => (
             <li>
-              <a href={file.url}>{file.label}</a>
+              <a
+                href={file.url}
+                target="_blank"
+                rel="noopener noreferrer">{file.label}</a
+              >
               <span>{file.file} · {file.size}</span>
             </li>
           ))
@@ -113,7 +129,12 @@ const documents = files.slice(song.stems.length);
       </p>
       <div class="actions">
         {song.licenseFile ? (
-          <a class="button button--ghost" href={song.licenseFile}>license.txt</a>
+          <a
+            class="button button--ghost"
+            href={song.licenseFile}
+            target="_blank"
+            rel="noopener noreferrer">license.txt</a
+          >
         ) : null}
       </div>
     </section>
