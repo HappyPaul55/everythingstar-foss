@@ -4,6 +4,10 @@
   "assets": {
     "directory": "./dist"
   },
-  "workers_dev": true,
-  "preview_urls": true
+  // Custom domains are managed in the Cloudflare dashboard. Explicitly disable the
+  // workers.dev route and version preview URLs so neither is re-enabled on deploy.
+  // Branch previews are served from <branch>.everythingstar-foss.happypaul55.com,
+  // because the custom domain is enabled for preview traffic.
+  "workers_dev": false,
+  "preview_urls": false
 }
