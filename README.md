@@ -95,6 +95,33 @@ Most songs carry only the UltraStar vocal chart. Code Monkey also carries
 NoisyPuppet's source full-band guitar, bass, drum and vocal charts. No notes
 were invented from audio.
 
+## Why there are no `.sng` packages
+
+A song is published as a **folder of plain files**, not as a `.sng` container.
+That is a deliberate choice:
+
+- **The files are reviewable.** `song.json`, the chart JSON and `song.ini` are
+  text, so a change to a chart, a credit or a licence can be read in a diff;
+  MIDI has editors and viewers of its own. A binary container is opaque — a
+  change to one file inside it is not reviewable, and git cannot show what
+  moved.
+- **The format is not an industry standard.** `.sng` is a container with narrow
+  tooling support at best, not an interchange format. A folder of `song.ini`,
+  `notes.mid`, stems and art is what Clone Hero, YARG and the UltraStar family
+  already read.
+- **Consumers can fetch only what they need.** Album art, the song document or
+  a single chart is one request against this library. A package is all of it,
+  audio included, whether the reader wanted the stems or not.
+- **Git stays honest.** The library is already large because it contains audio;
+  adding a second, compiled copy of every song would double the history for no
+  new information. The sources are the canonical copy.
+
+EverythingStar itself still opens a `.sng` you already have: **Playlists →
+Import files** copies it into the game's own storage. What this repository does
+not do is publish one. A release step that compiles a `.sng` from these sources
+for anyone who prefers that format can be added later; it would be a build
+output, not a second source of truth.
+
 ## Conversion tool
 
 `tools/convert-ultrastar/` is a **development-only** tool. It imports the
