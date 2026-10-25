@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { songs, songFiles, type LibrarySong } from "../../lib/library";
-import { PLAYLIST_URL, rawUrl } from "../../lib/raw";
+import { PLAYLIST_URL, mainRawUrl } from "../../lib/raw";
 import { addSongLink } from "../../lib/game";
 
 export function getStaticPaths() {
@@ -15,7 +15,7 @@ const { song } = Astro.props as { song: LibrarySong };
 const files = songFiles(song);
 const stems = files.slice(0, song.stems.length);
 const documents = files.slice(song.stems.length);
-const addThisSong = addSongLink(rawUrl(`${song.folder}/song.json`));
+const addThisSong = addSongLink(mainRawUrl(`${song.folder}/song.json`));
 ---
 
 <BaseLayout
