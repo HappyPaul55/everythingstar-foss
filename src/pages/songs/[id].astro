@@ -1,7 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { songs, songFiles, type LibrarySong } from "../../lib/library";
-import { PLAYLIST_URL } from "../../lib/raw";
+import { PLAYLIST_URL, rawUrl } from "../../lib/raw";
+import { addSongLink } from "../../lib/game";
 
 export function getStaticPaths() {
   return songs.map((song) => ({
@@ -14,6 +15,7 @@ const { song } = Astro.props as { song: LibrarySong };
 const files = songFiles(song);
 const stems = files.slice(0, song.stems.length);
 const documents = files.slice(song.stems.length);
+const addThisSong = addSongLink(rawUrl(`${song.folder}/song.json`));
 ---
 
 <BaseLayout
@@ -58,6 +60,9 @@ const documents = files.slice(song.stems.length);
           Your browser does not support the audio element.
         </audio>
         <div class="actions">
+          <a class="button button--yellow button--small" href={addThisSong} rel="noopener"
+            >Add This Song to EverythingStar</a
+          >
           <a class="button button--small" href="/songs">All songs</a>
           <a
             class="button button--ghost button--small"
