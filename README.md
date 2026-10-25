@@ -46,8 +46,10 @@ so a game on another origin can fetch the playlist, charts and audio.
 
 ## Using the library
 
-Add this URL in EverythingStar’s **Playlists** dialog, or in any player that
-understands the same playlist / song / chart documents:
+Press **Add to EverythingStar** on this site — the home page adds the whole
+library, a song page adds that one song — or add this URL in EverythingStar’s
+**Playlists** dialog, or in any player that understands the same playlist /
+song / chart documents:
 
 ```
 https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/playlist.json
