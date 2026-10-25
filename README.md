@@ -31,7 +31,10 @@ Pages:
 - `/songs/<id>` — one song’s stems, chart/document files and licence;
 - `/ATTRIBUTION.md` — the attribution page.
 
-The playlist and every song asset are served from GitHub:
+The **playlist and the Add links** always point at `main`:
+`https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/playlist.json`,
+so a link somebody shares follows songs added to the library. A song's **assets**
+(covers, stems, charts) are served from the build's ref:
 `https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/<ref>/songs/`,
 where `<ref>` is `main` in production and the build commit for a branch or
 pull-request preview. Licence details live on each song page; there is no
@@ -46,8 +49,10 @@ so a game on another origin can fetch the playlist, charts and audio.
 
 ## Using the library
 
-Add this URL in EverythingStar’s **Playlists** dialog, or in any player that
-understands the same playlist / song / chart documents:
+Press **Add to EverythingStar** on this site — the home page adds the whole
+library, a song page adds that one song — or add this URL in EverythingStar’s
+**Playlists** dialog, or in any player that understands the same playlist /
+song / chart documents:
 
 ```
 https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/playlist.json

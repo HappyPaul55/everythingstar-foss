@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Mark from "../components/Mark.astro";
 import { PLAYLIST_URL } from "../lib/raw";
+import { addPlaylistLink } from "../lib/game";
 
 interface Props {
   title: string;
@@ -24,7 +25,10 @@ const nav = [
   { href: "/songs", label: "Songs" },
   { href: PLAYLIST_URL, label: "Playlist JSON" },
 ];
-const pill = { href: gameUrl, label: "Play with EverythingStar" };
+const pill = {
+  href: addPlaylistLink(PLAYLIST_URL),
+  label: "Add to EverythingStar",
+};
 
 const isExternal = (href: string) => /^https?:\/\//.test(href);
 const isActive = (href: string) =>

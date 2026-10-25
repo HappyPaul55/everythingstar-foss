@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { songs, stats } from "../lib/library";
 import { PLAYLIST_URL } from "../lib/raw";
+import { addPlaylistLink } from "../lib/game";
 
 const featured = songs.slice(0, 5);
 const poster = songs.slice(0, 3);
@@ -24,6 +25,11 @@ const poster = songs.slice(0, 3);
         </p>
         <div class="actions">
           <a class="button button--yellow" href="/songs">Browse {stats.songs} songs</a>
+          <a
+            class="button button--ghost"
+            href={addPlaylistLink(PLAYLIST_URL)}
+            rel="noopener">Add to EverythingStar</a
+          >
           <a
             class="button button--ghost"
             href={PLAYLIST_URL}
@@ -130,10 +136,15 @@ const poster = songs.slice(0, 3);
       <p class="eyebrow">How to use it</p>
       <h2>Point a player at the playlist</h2>
       <p class="section__lede">
-        In EverythingStar, open <strong>Playlists → Add a playlist</strong> and
-        paste the URL below. Clone Hero and YARG can copy any song folder into
-        their Songs directory and scan it.
+        In EverythingStar, press <strong>Add Playlist to EverythingStar</strong> below,
+        or open <strong>Playlists → Add a playlist</strong> and paste the URL. Clone Hero
+        and YARG can copy any song folder into their Songs directory and scan it.
       </p>
+      <div class="actions">
+        <a class="button button--yellow" href={addPlaylistLink(PLAYLIST_URL)} rel="noopener"
+          >Add Playlist to EverythingStar</a
+        >
+      </div>
       <code class="code">{PLAYLIST_URL}</code>
       <div class="columns" style="margin-top: 1rem;">
         <div class="panel">

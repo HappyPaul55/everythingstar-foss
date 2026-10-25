@@ -9,5 +9,8 @@
   // Branch previews are served from <branch>.everythingstar-foss.happypaul55.com,
   // because the custom domain is enabled for preview traffic.
   "workers_dev": false,
-  "preview_urls": false
+  "preview_urls": false,
+  // A Workers Builds branch preview runs `wrangler preview`, which requires the
+  // block even when there is nothing preview-specific in it.
+  "previews": {}
 }
