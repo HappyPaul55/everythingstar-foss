@@ -1,0 +1,18 @@
+# EverythingStar FOSS
+
+> A free, non-commercial library of UltraStar songs converted for EverythingStar and Guitar Hero-compatible players, with separated stems and licence details on every song page.
+
+EverythingStar FOSS is a static song library published by HappyPaul55. Each song folder works in EverythingStar, Clone Hero and YARG. The songs, lyrics, artwork and charts keep their own licences — see each song's `license.txt` — while the site's own code is MIT. Nothing here may be sold or put behind a paywall.
+
+## Main pages
+
+- [EverythingStar FOSS](https://everythingstar-foss.happypaul55.com/): what the library is, its numbers and featured songs.
+- [Songs](https://everythingstar-foss.happypaul55.com/songs): the full list, with search and 30-second previews.
+- [Attribution](https://everythingstar-foss.happypaul55.com/ATTRIBUTION.md): the licences and credits for the library.
+- [Playlist JSON](https://raw.githubusercontent.com/HappyPaul55/everythingstar-foss/main/songs/playlist.json): the playlist document a player reads.
+
+## Elsewhere
+
+- [Play with EverythingStar](https://everythingstar.happypaul55.com): the game that reads this library.
+- [Source code](https://github.com/HappyPaul55/everythingstar-foss): the repository behind the library.
+- [HappyPaul55](https://www.happypaul55.com): the publisher.
