@@ -745,6 +745,9 @@ main {
   font-size: clamp(1rem, 1.4vw, 1.12rem);
   margin-bottom: 1.4rem;
 }
+.section__lede--spaced {
+  margin-top: 1rem;
+}
 .section h2 + .section__lede,
 .band h2 + .section__lede {
   margin-top: 1.25rem;
@@ -810,6 +813,9 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 1.75rem;
+}
+.columns--spaced {
+  margin-top: 1rem;
 }
 .panel {
   border: 1px solid var(--line);

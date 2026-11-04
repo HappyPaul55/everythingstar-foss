@@ -1,0 +1,7 @@
+# Cloudflare redirects
+# https://developers.cloudflare.com/workers/static-assets/redirects/
+#
+# This site has no policy pages of its own, so the game's privacy notice is the
+# applicable one.
+/cookies        https://everythingstar.happypaul55.com/privacy   301
+/accessibility  https://everythingstar.happypaul55.com/privacy   301
